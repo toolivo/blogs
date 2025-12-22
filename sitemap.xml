@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Most recent update -->
+ 
   <url>
     <loc>https://toolivo.github.io/blogs/image-compression-guide.html</loc>
     <lastmod>2025-12-19</lastmod>
@@ -9,7 +9,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Second most recent -->
+  
   <url>
     <loc>https://toolivo.github.io/blogs/text-analyzer-guide.html</loc>
     <lastmod>2025-12-15</lastmod>
@@ -17,7 +17,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Oldest (but still recent) -->
+  
   <url>
     <loc>https://toolivo.github.io/blogs/</loc>
     <lastmod>2025-12-11</lastmod>
