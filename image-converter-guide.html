@@ -1,0 +1,3197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image Converter Guide | Convert Image Formats Online (JPG, PNG, WebP)</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Complete image converter guide. Learn how to convert image formats online, including PNG to JPG, JPG to PNG, WebP conversion, batch image conversion, and format optimization for web and SEO.">
+    <meta name="keywords" content="image converter guide, free online image converter, convert image formats online, png to jpg converter online, jpg to png converter free, convert png to webp online, image to webp converter, webp to png converter, batch image converter free">
+    <meta name="author" content="Mushfikur Riad">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Image Converter Guide | Toolivo Blog">
+    <meta property="og:description" content="Learn how to convert image formats online. Convert PNG, JPG, WebP, and GIF easily with this complete image converter guide.">
+    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXYt1UqVa0NZFwLgDWrdQsz6zQSk5i3RBVoEZiJJFA7QAuM70GMAkIrAN-QxGg39H8g2_l-WTsWuceJguhQjAXwc7DPx_dzFrBZx24W3JUR8o3onUxtlHHBsvySwhGHp5MHhhb1c4Jkj-X9cGp9nFWGOo-XQLBqd6GFj3TZvX51euIvg/s1600/1766922423011.webp">
+    <meta property="og:url" content="https://toolivo.github.io/blog/image-converter-guide.html">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Toolivo Blog">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Image Converter Guide | Toolivo Blog">
+    <meta name="twitter:description" content="Convert image formats online with ease. A complete guide to PNG, JPG, WebP conversion and batch image converters.">
+    <meta name="twitter:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXYt1UqVa0NZFwLgDWrdQsz6zQSk5i3RBVoEZiJJFA7QAuM70GMAkIrAN-QxGg39H8g2_l-WTsWuceJguhQjAXwc7DPx_dzFrBZx24W3JUR8o3onUxtlHHBsvySwhGHp5MHhhb1c4Jkj-X9cGp9nFWGOo-XQLBqd6GFj3TZvX51euIvg/s1600/1766922423011.webp">
+    <meta name="twitter:creator" content="@toolivo">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#2563eb">
+    <meta name="msapplication-TileColor" content="#2563eb">
+    <link rel="canonical" href="https://toolivo.github.io/blog/image-converter-guide.html">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://toolivo.github.io/tool/favicon.png">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+    <style>
+        :root {
+            --primary-blue: #2563eb;
+            --blue-600: #2563eb;
+            --blue-700: #1d4ed8;
+            --blue-800: #1e40af;
+            --light-bg: #ffffff;
+            --light-text: #1f2937;
+            --light-card: rgba(255,255,255,0.98);
+            --dark-bg-1: #071127;
+            --dark-bg-2: #071a2b;
+            --dark-text: #e6eef8;
+            --dark-card: #0f1724;
+            --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            --border-radius: 12px;
+            --box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            --menu-width: 280px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--blue-600), var(--blue-700), var(--blue-800));
+            color: var(--light-text);
+            line-height: 1.6;
+            padding: 5px;
+            min-height: 100vh;
+            transition: var(--transition);
+            margin-top: -0.7rem;
+        }
+
+        body.dark-mode {
+            background: linear-gradient(135deg, var(--dark-bg-1), var(--dark-bg-2));
+            color: var(--dark-text);
+        }
+        
+        /* Glowing effect for cards in dark mode — hover-only transition to preserve lazy-load animations */
+        body.dark-mode .article-section,
+        body.dark-mode .tool-promo-section,
+        body.dark-mode .faq-list,
+        body.dark-mode .article-card {
+            box-shadow: 0 0 14px 3px rgba(14, 165, 233, 0.15);
+        }
+
+        /* ✅ Only apply transition to box-shadow on hover/focus — avoids overriding opacity/transform transitions */
+        body.dark-mode .article-section:hover,
+        body.dark-mode .tool-promo-section:hover,
+        body.dark-mode .faq-list:hover,
+        body.dark-mode .article-card:hover {
+            box-shadow: 0 0 20px 6px rgba(14, 165, 233, 0.25);
+            transition: box-shadow 0.3s ease;
+        }
+
+        /* === Menu Toggle === */
+        .menu-toggle {
+            background: transparent;
+            border: none;
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+            transition: background 0.3s;
+            z-index: 10;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .menu-toggle:hover {
+            background: rgba(255,255,255,0.08);
+        }
+
+        body.dark-mode .menu-toggle:hover {
+            background: rgba(255,255,255,0.04);
+        }
+
+        .menu-toggle span {
+            display: block;
+            height: 3px;
+            width: 24px;
+            border-radius: 2px;
+            background: white;
+            transition: var(--transition);
+            transform-origin: center;
+        }
+
+        body.dark-mode .menu-toggle span {
+            background: #e6eef8;
+        }
+
+        .menu-toggle.open span:nth-child(1) {
+            transform: translateY(9px) rotate(45deg);
+        }
+        .menu-toggle.open span:nth-child(2) {
+            opacity: 0;
+        }
+        .menu-toggle.open span:nth-child(3) {
+            transform: translateY(-9px) rotate(-45deg);
+        }
+
+        /* === Breadcrumb === */
+        .breadcrumb {
+            padding: 0.3rem 0.3rem;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 0 0 8px 8px;
+            margin-bottom: 2px;
+            margin-top: 25px
+        }
+        body.dark-mode .breadcrumb {
+            background: rgba(255, 255, 255, 0.04);
+        }
+        .breadcrumb ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.1rem;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 0.5rem;
+            align-items: center;
+        }
+        .breadcrumb li {
+            display: flex;
+            align-items: center;
+        }
+        .breadcrumb li:not(:last-child)::after {
+            content: "/";
+            margin: 0 0.1rem;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 600;
+        }
+        .breadcrumb a {
+            color: rgba(255, 255, 255, 0.85);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            transition: var(--transition);
+        }
+        .breadcrumb a:hover {
+            color: white;
+        }
+        body.dark-mode .breadcrumb a {
+            color: rgba(230, 238, 248, 0.85);
+        }
+        body.dark-mode .breadcrumb a:hover {
+            color: #e6eef8;
+        }
+        .breadcrumb li[aria-current="page"] {
+            color: #e6eef8;
+            font-weight: 600;
+        }
+        body.dark-mode .breadcrumb li[aria-current="page"] {
+            color: #cbd5e1;
+        }
+        .breadcrumb i {
+            font-size: 0.9em;
+        }
+
+        /* === Menu Card === */
+        .menu-card {
+            position: fixed;
+            top: 80px;
+            left: 20px;
+            width: var(--menu-width);
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 12px 32px rgba(0,0,0,0.24);
+            transform: translateX(-145%);
+            transition: transform 0.36s cubic-bezier(0.22, 0.61, 0.36, 1);
+            z-index: 1000;
+            padding: 1.5rem;
+            max-height: 80vh;
+            max-width: 500px;
+            overflow-y: auto;
+        }
+        body.dark-mode .menu-card {
+            background: #0f1724;
+        }
+
+        .menu-card.open {
+            transform: translateX(0);
+        }
+
+        .menu-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid rgba(0,0,0,0.1);
+        }
+
+        body.dark-mode .menu-header {
+            border-bottom-color: rgba(255,255,255,0.1);
+        }
+
+        .menu-header h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .menu-close {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            transition: background 0.2s;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .menu-close:hover {
+            background: rgba(0,0,0,0.05);
+        }
+
+        body.dark-mode .menu-close:hover {
+            background: rgba(255,255,255,0.05);
+        }
+
+        .menu-close svg {
+            width: 20px;
+            height: 20px;
+            stroke: currentColor;
+            stroke-width: 2;
+        }
+
+        .menu-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        body.dark-mode .menu-close svg {
+            color: #e6eef8;
+        }
+
+        .menu-item {
+            margin-bottom: 0.75rem;
+        }
+
+        .menu-link {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 0.25rem 1rem 0.25rem 0.25rem;
+            color: var(--light-text);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.05rem;
+            border-radius: 8px;
+            transition: var(--transition);
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body.dark-mode .menu-link {
+            color: var(--dark-text);
+        }
+
+        .menu-link:hover {
+            background: rgba(37,99,235,0.1);
+            transform: translateX(4px);
+        }
+
+        body.dark-mode .menu-link:hover {
+            background: rgba(14,165,233,0.12);
+        }
+
+        .menu-icon {
+            width: 20px;
+            opacity: 0.7;
+        }
+
+        /* Backdrop */
+        .backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0,0,0,0.45);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.24s, visibility 0.24s;
+            z-index: 999;
+        }
+
+        .backdrop.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Header Styles */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.2rem;
+            padding: 0.2rem 0;
+            gap: 0.8rem;
+        }
+
+        .logo-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo {
+            max-width: 200px;
+            height: auto;
+            transition: transform 0.28s;
+        }
+
+        .logo:hover {
+            transform: scale(1.04);
+        }
+
+        /* === Theme Toggle === */
+        .theme-toggle {
+            position: fixed;
+            top: 16px;
+            right: 16px;
+            z-index: 1000;
+            background: rgba(255,255,255,0.14);
+            border: none;
+            width: 38px;
+            height: 38px;
+            border-radius: 14px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body.dark-mode .theme-toggle {
+            background: rgba(255,255,255,0.06);
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.05);
+            background: rgba(255,255,255,0.2);
+        }
+
+        body.dark-mode .theme-toggle:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .theme-icon {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            stroke: currentColor;
+        }
+
+        .sun-icon {
+            opacity: 1;
+            transform: rotate(0deg);
+            color: #ff8c00;
+        }
+
+        .moon-icon {
+            opacity: 0;
+            transform: rotate(-90deg);
+            color: #e6eef8;
+        }
+
+        body.dark-mode .sun-icon {
+            opacity: 0;
+            transform: rotate(90deg);
+        }
+
+        body.dark-mode .moon-icon {
+            opacity: 1;
+            transform: rotate(0deg);
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* === ARTICLE META INFO SECTION (New) === */
+.article-meta {
+    max-width: 900px;
+    margin: 1.5rem auto 0.5rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    flex-wrap: nowrap; /* Changed to nowrap for mobile */
+    gap: 1rem;
+}
+
+.article-date, .article-author {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.9rem; /* Slightly smaller font */
+    color: white;
+    padding: 0.5rem 1rem; /* Restored original padding */
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transition: var(--transition);
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 0; /* Changed from 1 to 0 to prevent shrinking */
+    min-width: 0; /* Allow shrinking */
+}
+
+body.dark-mode .article-date,
+body.dark-mode .article-author {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--dark-text);
+}
+
+.article-date:hover, .article-author:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+body.dark-mode .article-date:hover,
+body.dark-mode .article-author:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.meta-icon {
+    font-size: 0.9rem; /* Slightly smaller icon */
+    color: white; /* White icon in light mode */
+    flex-shrink: 0;
+}
+
+body.dark-mode .meta-icon {
+    color: #0ea5e9; /* Teal in dark mode */
+}
+
+/* Mobile adjustments for single row layout */
+@media (max-width: 768px) {
+    .article-meta {
+        flex-direction: row; /* Keep as row on mobile */
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.75rem; /* Reduced but still visible gap */
+        margin: 1rem auto 0.5rem auto;
+        padding: 0 0.75rem;
+        overflow: hidden;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .article-date, .article-author {
+        width: auto; /* Auto width instead of 100% */
+        justify-content: center; /* Center content */
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem; /* Slightly smaller font for mobile */
+        flex: 0 1 auto; /* Allow shrinking but not growing too much */
+        min-width: 0; /* Allow minimum width */
+        max-width: none; /* Remove max-width constraint */
+    }
+    
+    .meta-icon {
+        font-size: 0.85rem; /* Slightly smaller icon on mobile */
+        margin-right: 0.4rem;
+    }
+}
+
+/* Very small mobile adjustments */
+@media (max-width: 480px) {
+    .article-meta {
+        gap: 0.5rem; /* Keep small gap even on very small screens */
+        padding: 0 0.5rem;
+    }
+    
+    .article-date, .article-author {
+        padding: 0.35rem 0.7rem;
+        font-size: 0.8rem;
+        gap: 0.4rem;
+    }
+    
+    .meta-icon {
+        font-size: 0.8rem;
+    }
+}
+
+/* Extra small screen adjustments */
+@media (max-width: 360px) {
+    .article-meta {
+        gap: 0.4rem;
+    }
+    
+    .article-date, .article-author {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.75rem;
+        gap: 0.3rem;
+    }
+    
+    .meta-icon {
+        font-size: 0.75rem;
+    }
+}
+
+        /* === ARTICLE SECTION FROM FIRST HTML === */
+        .article-section {
+            background: var(--light-card);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 1.8rem;
+            margin-bottom: 3rem;
+            overflow: hidden;
+            border-left: 4px solid var(--blue-600);
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0.5rem;
+        }
+
+        body.dark-mode .article-section {
+            background: var(--dark-card);
+            border-left: 4px solid #0ea5e9;
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 1.8rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(37, 99, 235, 0.1);
+        }
+
+        body.dark-mode .article-header {
+            border-bottom-color: rgba(14, 165, 233, 0.1);
+        }
+
+        .article-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: linear-gradient(135deg, var(--blue-600), var(--blue-800));
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+        }
+
+        body.dark-mode .article-badge {
+            background: linear-gradient(135deg, #0ea5e9, #0369a1);
+        }
+
+        .article-title {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+            color: var(--light-text);
+            line-height: 1.3;
+            font-weight: 700;
+        }
+
+        body.dark-mode .article-title {
+            color: var(--dark-text);
+        }
+
+        .article-subtitle {
+            font-size: 1.8rem;
+            color: #6b7280;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        body.dark-mode .article-subtitle {
+            color: rgba(230, 238, 248, 0.9);
+        }
+
+        /* Article Single Column Container */
+        .article-single-content {
+            display: block;
+            width: 100%;
+        }
+
+        @media (min-width: 768px) {
+            .article-single-content {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+        }
+
+        .article-intro {
+            background: rgba(37, 99, 235, 0.05);
+            border-radius: 10px;
+            padding: 1.2rem;
+            margin-bottom: 1.2rem;
+            border-left: 3px solid var(--blue-600);
+        }
+
+        body.dark-mode .article-intro {
+            background: rgba(14, 165, 233, 0.05);
+            border-left: 3px solid #0ea5e9;
+        }
+
+        .article-intro p {
+            margin: 0;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.8rem;
+            margin: 1.2rem 0;
+        }
+
+        @media (min-width: 768px) {
+            .stats-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 8px;
+            padding: 0.8rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: var(--transition);
+        }
+
+        body.dark-mode .stat-card {
+            background: rgba(14, 165, 233, 0.08);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--blue-600);
+            margin-bottom: 0.2rem;
+        }
+
+        body.dark-mode .stat-value {
+            color: #0ea5e9;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: #6b7280;
+            font-weight: 500;
+        }
+
+        body.dark-mode .stat-label {
+            color: rgba(230, 238, 248, 0.7);
+        }
+
+        /* Content Sections */
+        .content-section {
+            margin-bottom: 1.8rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.8rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid rgba(37, 99, 235, 0.1);
+        }
+
+        body.dark-mode .section-header {
+            border-bottom-color: rgba(14, 165, 233, 0.1);
+        }
+
+        .section-icon {
+            color: var(--blue-600);
+            font-size: 1.2rem;
+        }
+
+        body.dark-mode .section-icon {
+            color: #0ea5e9;
+        }
+
+        .section-title-sm {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--light-text);
+            margin: 0;
+        }
+
+        body.dark-mode .section-title-sm {
+            color: var(--dark-text);
+        }
+
+        .section-content {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--light-text);
+        }
+
+        body.dark-mode .section-content {
+            color: var(--dark-text);
+        }
+
+        .section-content p {
+            margin-bottom: 0.8rem;
+            font-size: 1.02rem;
+        }
+
+        .section-content ul,
+        .section-content ol {
+            margin: 1rem 0 1rem 1.5rem;
+        }
+
+        .section-content li {
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+        }
+
+        /* Subheadings in content */
+        .content-subheading {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--blue-600);
+            margin: 1.5rem 0 0.8rem 0;
+            padding-bottom: 0.3rem;
+            border-bottom: 1px solid rgba(37, 99, 235, 0.1);
+        }
+
+        body.dark-mode .content-subheading {
+            color: #0ea5e9;
+            border-bottom-color: rgba(14, 165, 233, 0.1);
+        }
+
+        /* Tips Box */
+        .tips-box {
+            background: rgba(37, 99, 235, 0.08);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border-left: 3px solid var(--blue-600);
+        }
+
+        body.dark-mode .tips-box {
+            background: rgba(14, 165, 233, 0.08);
+            border-left: 3px solid #0ea5e9;
+        }
+
+        .tips-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--blue-600);
+            font-weight: 600;
+            font-size: 1.05rem;
+        }
+
+        body.dark-mode .tips-header {
+            color: #0ea5e9;
+        }
+
+        .tips-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .tips-list li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.2rem;
+            position: relative;
+        }
+
+        .tips-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--blue-600);
+            font-weight: bold;
+        }
+
+        body.dark-mode .tips-list li:before {
+            color: #0ea5e9;
+        }
+
+        /* Default = mobile first */
+.article-image-compact {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background: #ffffff;           /* same as article card */
+}
+
+body.dark-mode .article-image-compact {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    background: #0b1729;           /* same as dark card */
+}
+
+.article-image-compact img {
+    display: block;                /* remove inline gap */
+    width: 100%;
+    height: 180px;                 /* mobile fixed height */
+    object-fit: cover;             /* fills, no bars */
+    transition: transform 0.3s ease;
+}
+
+.article-image-compact img:hover {
+    transform: scale(1.05);
+}
+
+/* Desktop & tablet: show full image */
+@media (min-width: 768px) {
+    .article-image-compact img {
+        height: auto;              /* let image decide height */
+        object-fit: contain;       /* full banner visible */
+    }
+}
+
+        /* Platform Cards */
+        .platform-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 0.8rem;
+            margin: 1rem 0;
+        }
+
+        .platform-card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 6px;
+            padding: 0.6rem;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+            transition: var(--transition);
+        }
+
+        body.dark-mode .platform-card {
+            background: rgba(14, 165, 233, 0.08);
+        }
+
+        .platform-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(37, 99, 235, 0.15);
+        }
+
+        .platform-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.2rem;
+            color: var(--light-text);
+        }
+
+        body.dark-mode .platform-name {
+            color: var(--dark-text);
+        }
+
+        .platform-limit {
+            font-size: 0.8rem;
+            color: #6b7280;
+        }
+
+        body.dark-mode .platform-limit {
+            color: rgba(230, 238, 248, 0.7);
+        }
+
+        .platform-details {
+            font-size: 0.75rem;
+            color: #6b7280;
+            margin-top: 0.2rem;
+        }
+
+        body.dark-mode .platform-details {
+            color: rgba(230, 238, 248, 0.6);
+        }
+
+        /* Final Insight Box */
+        .final-insight {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background: rgba(37, 99, 235, 0.05);
+            border-radius: 8px;
+            border-left: 3px solid var(--blue-600);
+            font-size: 1.05rem;
+        }
+
+        body.dark-mode .final-insight {
+            background: rgba(14, 165, 233, 0.05);
+            border-left: 3px solid #0ea5e9;
+        }
+
+        .final-insight strong {
+            color: var(--blue-600);
+        }
+
+        body.dark-mode .final-insight strong {
+            color: #0ea5e9;
+        }
+
+        /* Light mode link color */
+        .article-section a {
+            color: #2563ea;
+            text-decoration: none;
+            transition: 0.2s ease;
+            font-weight: 500;
+        }
+
+        .article-section a:hover {
+            color: #1d4ed8;
+            text-decoration: underline;
+        }
+
+        /* Dark mode link color */
+        body.dark-mode .article-section a {
+            color: #10a5e7;
+        }
+
+        body.dark-mode .article-section a:hover {
+            color: #17b8ff;
+            text-decoration: underline;
+        }
+
+        /* === Social Sharing Section === */
+        .social-sharing {
+            text-align: center;
+            margin: 3rem 0;
+            padding: 2rem 0;
+            border-top: 1px solid rgba(255,255,255,0.06);
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .social-sharing h3 {
+            color: white;
+            margin-bottom: 1.5rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        body.dark-mode .social-sharing h3 {
+            color: var(--dark-text);
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 0.8rem;
+            flex-wrap: wrap;
+        }
+
+        .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 1.4rem;
+            transition: var(--transition);
+            cursor: pointer;
+            text-decoration: none;
+            -webkit-tap-highlight-color: transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .social-icon:hover {
+            transform: translateY(-5px) scale(1.1);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Platform-specific hover colors */
+        .social-icon.x-twitter:hover { background: #000000; }
+        .social-icon.linkedin:hover { background: #0077B5; }
+        .social-icon.facebook:hover { background: #0068FF; }
+        .social-icon.whatsapp:hover { background: #25D366; }
+        .social-icon.telegram:hover { background: #0088cc; }
+        .social-icon.instagram:hover { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+        .social-icon.reddit:hover { background: #FF4500; }
+        .social-icon.pinterest:hover { background: #BD081C; }
+        .social-icon.messenger:hover { background: #006AFF; }
+        .social-icon.email:hover { background: #EA4335; }
+
+        .social-icon.clicked {
+            animation: clickPulse 0.4s ease-out;
+        }
+
+        @keyframes clickPulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(0.9);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* === Simple Footer === */
+        .simple-footer {
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 16px;
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+            color: white;
+        }
+
+        body.dark-mode .simple-footer {
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: var(--transition);
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .footer-links a:hover {
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        body.dark-mode .footer-links a {
+            color: rgba(230, 238, 248, 0.8);
+        }
+
+        body.dark-mode .footer-links a:hover {
+            color: #e6eef8;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.06);
+            font-size: 0.92rem;
+            opacity: 0.9;
+        }
+
+        .creator-credit {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        /* Lazy loading animation - only for related articles */
+        .lazy-section {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        .lazy-section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ===== LATEST ARTICLES SECTION (Renamed from Related Articles) ===== */
+        .latest-articles {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 1rem;
+        }
+
+        .latest-articles h2 {
+            color: white;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .article-card {
+            background: var(--light-card);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        body.dark-mode .article-card {
+            background: var(--dark-card);
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .article-card h3 {
+            color: var(--blue-600);
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+
+        body.dark-mode .article-card h3 {
+            color: #0ea5e9;
+        }
+
+        .article-card p {
+            color: #6c757d;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+            flex-grow: 1;
+        }
+
+        body.dark-mode .article-card p {
+            color: rgba(230, 238, 248, 0.7);
+        }
+
+        /* Card Footer with Date (Left) and Read More Button (Right) in same row */
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(37, 99, 235, 0.08);
+            min-height: 48px;
+        }
+
+        body.dark-mode .card-footer {
+            border-top: 1px solid rgba(14, 165, 233, 0.1);
+        }
+
+        /* Article Date - Left side (same style as article-meta) */
+        .card-article-date {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.85rem;
+            color: var(--light-text);
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            background: rgba(37, 99, 235, 0.05);
+            transition: var(--transition);
+            white-space: nowrap;
+        }
+
+        body.dark-mode .card-article-date {
+            background: rgba(14, 165, 233, 0.08);
+            color: var(--dark-text);
+        }
+
+        .card-article-date:hover {
+            background: rgba(37, 99, 235, 0.1);
+            transform: translateY(-2px);
+        }
+
+        body.dark-mode .card-article-date:hover {
+            background: rgba(14, 165, 233, 0.12);
+        }
+
+        .card-date-icon {
+            font-size: 0.85rem;
+            color: var(--blue-600);
+        }
+
+        body.dark-mode .card-date-icon {
+            color: #0ea5e9;
+        }
+
+        /* Read More Button/Link - Right side */
+        .card-read-more-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            background: var(--blue-600);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 0.5rem 1rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 6px rgba(37, 99, 235, 0.2);
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            line-height: 1;
+            height: 36px;
+            white-space: nowrap;
+        }
+
+        /* Dark mode specific styling */
+        body.dark-mode .card-read-more-btn {
+            background: #0ea5e9; /* Teal blue for dark mode */
+            color: white;
+            box-shadow: 0 3px 10px rgba(14, 165, 233, 0.25);
+            border: 1px solid rgba(14, 165, 233, 0.2);
+        }
+
+        /* Light mode hover effects */
+        .card-read-more-btn:hover {
+            background: var(--blue-700); /* Darker shade on hover */
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(37, 99, 235, 0.35);
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Dark mode hover effects */
+        body.dark-mode .card-read-more-btn:hover {
+            background: #0284c7; /* Darker teal on hover */
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(14, 165, 233, 0.35);
+            color: white;
+            text-decoration: none;
+            border: 1px solid rgba(14, 165, 233, 0.3);
+        }
+
+        /* Focus state for accessibility */
+        .card-read-more-btn:focus {
+            outline: 2px solid var(--blue-600);
+            outline-offset: 2px;
+        }
+
+        body.dark-mode .card-read-more-btn:focus {
+            outline: 2px solid #0ea5e9;
+            outline-offset: 2px;
+        }
+
+        /* Active/pressed effect */
+        .card-read-more-btn:active {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 5px rgba(37, 99, 235, 0.2);
+        }
+
+        body.dark-mode .card-read-more-btn:active {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 5px rgba(14, 165, 233, 0.2);
+        }
+
+        /* Arrow icon animation */
+        .card-read-more-btn i {
+            font-size: 0.85rem;
+            transition: transform 0.3s ease;
+        }
+
+        .card-read-more-btn:hover i {
+            transform: translateX(4px);
+        }
+
+        /* Responsive for card footer */
+        @media (max-width: 768px) {
+            .card-footer {
+                flex-direction: row; /* Keep as row on mobile */
+                justify-content: space-between;
+                align-items: center;
+                gap: 0.5rem;
+                padding-top: 0.8rem;
+                min-height: 42px;
+            }
+            
+            .card-article-date {
+                padding: 0.3rem 0.6rem;
+                font-size: 0.8rem;
+                gap: 0.4rem;
+            }
+            
+            .card-read-more-btn {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.8rem;
+                height: 32px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card-footer {
+                gap: 0.3rem;
+            }
+            
+            .card-article-date {
+                padding: 0.25rem 0.5rem;
+                font-size: 0.75rem;
+                gap: 0.3rem;
+            }
+            
+            .card-read-more-btn {
+                padding: 0.3rem 0.6rem;
+                font-size: 0.75rem;
+                height: 30px;
+            }
+            
+            .card-read-more-btn span {
+                display: none; /* Hide "Read More" text on very small screens */
+            }
+            
+            .card-read-more-btn i {
+                margin: 0;
+                font-size: 0.8rem;
+            }
+        }
+
+        /* Back to top button */
+        .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #2563ea;
+    color: #ffffff;
+    border: 1px solid #ffffff; /* White border added */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.85);
+    transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.2, 0.6, 0.4, 1);
+    z-index: 1000;
+}
+
+body.dark-mode .back-to-top {
+    background: #0ea5e9;
+    color: #ffffff;
+    border: none; /* Remove border in dark mode */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.back-to-top:hover {
+    transform: scale(1.08);
+}
+
+.back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+        /* FAQ Section Styling */
+        .faq-section {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 0.1rem;
+        }
+
+        /* Center align the FAQ title and make it always white */
+        .faq-section .section-title {
+            color: white !important;
+            text-align: center !important;
+            position: relative;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+
+        /* Add glow effect to FAQ title in both themes */
+        .faq-section .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--blue-600), var(--blue-800));
+            border-radius: 2px;
+        }
+
+        body.dark-mode .faq-section .section-title::after {
+            background: linear-gradient(90deg, #0ea5e9, #0369a1);
+        }
+
+        .faq-list {
+            background: var(--light-card);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 0.5rem;
+            margin-top: 1rem;
+            transition: box-shadow 0.3s ease;
+        }
+
+        body.dark-mode .faq-list {
+            background: var(--dark-card);
+        }
+
+        /* Glow effect on hover for FAQ section */
+        .faq-list:hover {
+            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.2);
+        }
+
+        body.dark-mode .faq-list:hover {
+            box-shadow: 0 0 20px 6px rgba(14, 165, 233, 0.25);
+        }
+
+        .faq-item {
+            margin-bottom: 1rem;
+            border: 1px solid rgba(37, 99, 235, 0.1);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        body.dark-mode .faq-item {
+            border-color: rgba(14, 165, 233, 0.1);
+        }
+
+        .faq-item:hover {
+            border-color: var(--blue-600);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+        }
+
+        body.dark-mode .faq-item:hover {
+            border-color: #0ea5e9;
+            box-shadow: 0 4px 12px rgba(14, 165, 233, 0.1);
+        }
+
+        .faq-question {
+            padding: 0.8rem 0.8rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            cursor: pointer;
+            color: var(--light-text);
+            background: rgba(37, 99, 235, 0.03);
+            transition: var(--transition);
+        }
+
+        body.dark-mode .faq-question {
+            color: var(--dark-text);
+            background: rgba(14, 165, 233, 0.03);
+        }
+
+        .faq-question:hover {
+            background: rgba(37, 99, 235, 0.08);
+        }
+
+        body.dark-mode .faq-question:hover {
+            background: rgba(14, 165, 233, 0.08);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease, padding 0.3s ease;
+            color: var(--light-text);
+        }
+
+        body.dark-mode .faq-answer {
+            color: var(--dark-text);
+        }
+
+        .faq-item.active .faq-answer {
+            padding: 0 1.5rem 1.5rem;
+            max-height: 500px;
+            margin-top: 1rem;
+        }
+
+        .faq-item.active .faq-question {
+            background: rgba(37, 99, 235, 0.08);
+            border-bottom: 1px solid rgba(37, 99, 235, 0.1);
+        }
+
+        body.dark-mode .faq-item.active .faq-question {
+            background: rgba(14, 165, 233, 0.08);
+            border-bottom: 1px solid rgba(14, 165, 233, 0.1);
+        }
+
+        .faq-icon {
+            transition: transform 0.4s ease;
+            color: var(--blue-600);
+        }
+
+        body.dark-mode .faq-icon {
+            color: #0ea5e9;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+
+        /* See More Button for FAQ */
+        .faq-see-more-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--primary-blue);
+            color: white;
+            border-radius: 6px;
+            padding: 0.6rem 1.2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            margin: 1rem auto;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+            border: none;
+        }
+
+        .faq-see-more-btn:hover {
+            background: var(--blue-700);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(37, 99, 235, 0.35);
+        }
+
+        body.dark-mode .faq-see-more-btn {
+            background: #0ea5e9;
+            box-shadow: 0 4px 12px rgba(14, 165, 233, 0.25);
+        }
+
+        body.dark-mode .faq-see-more-btn:hover {
+            background: #0284c7;
+            box-shadow: 0 6px 16px rgba(14, 165, 233, 0.35);
+        }
+
+        /* ===== TOOLIVO TEXT ANALYZER PROMO STYLES ===== */
+        .tool-promo-section {
+            background: linear-gradient(135deg, var(--blue-600), var(--blue-700));
+            margin: 3rem auto;
+            max-width: 900px;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            position: relative;
+        }
+
+        body.dark-mode .tool-promo-section {
+            background: linear-gradient(135deg, #0f1724, #1e293b);
+            box-shadow: 0 0 20px 5px rgba(14, 165, 233, 0.15);
+            border: 1px solid rgba(14, 165, 233, 0.2);
+        }
+
+        body.dark-mode .tool-promo-section:hover {
+            box-shadow: 0 0 25px 8px rgba(14, 165, 233, 0.25);
+        }
+
+        .tool-promo-container {
+            text-align: center;
+            color: white;
+            padding: 2.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .tool-promo-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .tool-promo-icon:hover {
+            transform: scale(1.05);
+        }
+
+        .tool-promo-icon i {
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        .tool-promo-title {
+            color: white;
+            margin-bottom: 0.5rem;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .tool-promo-subtitle {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        .tool-feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2.5rem 0;
+        }
+
+        .tool-feature-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            transition: all 0.3s ease;
+        }
+
+        body.dark-mode .tool-feature-card {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .tool-feature-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        body.dark-mode .tool-feature-card:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .tool-feature-icon {
+            color: #fbbf24;
+            font-size: 1.8rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .tool-feature-card:nth-child(2) .tool-feature-icon {
+            color: #60a5fa;
+        }
+
+        .tool-feature-card:nth-child(3) .tool-feature-icon {
+            color: #4ade80;
+        }
+
+        .tool-feature-card:nth-child(4) .tool-feature-icon {
+            color: #c084fc;
+        }
+
+        .tool-feature-title {
+            color: white;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .tool-feature-desc {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .tool-promo-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: white;
+            color: var(--blue-600);
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            margin-top: 1rem;
+        }
+
+        body.dark-mode .tool-promo-button {
+            background: #0ea5e9;
+            color: white;
+        }
+
+        .tool-promo-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+            background: #f0f9ff;
+        }
+
+        body.dark-mode .tool-promo-button:hover {
+            background: #0284c7;
+            box-shadow: 0 6px 25px rgba(14, 165, 233, 0.3);
+        }
+
+        .tool-stats {
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .tool-stats i {
+            color: #fbbf24;
+        }
+
+        /* Animation for the promo section */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .tool-promo-section {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        /* Decorative background elements */
+        .tool-promo-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            z-index: 0;
+        }
+
+        .tool-promo-section::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -30%;
+            width: 150px;
+            height: 150px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 50%;
+            z-index: 0;
+        }
+
+        /* Floating Tool Button */
+       .floating-tool-btn {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background: linear-gradient(135deg, var(--blue-600), var(--blue-700));
+    color: white;
+    border: 1px solid #ffffff; /* White border for light mode */
+    border-radius: 50px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(37, 99, 235, 0.3);
+    z-index: 1000;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+body.dark-mode .floating-tool-btn {
+    background: linear-gradient(135deg, #0ea5e9, #0284c7);
+    border: none; /* Remove border in dark mode */
+}
+
+.floating-tool-btn:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 6px 25px rgba(37, 99, 235, 0.4);
+}
+
+.floating-tool-btn i {
+    font-size: 1.2rem;
+}
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .article-title {
+                font-size: 2rem;
+            }
+            
+            .article-subtitle {
+                font-size: 1.4rem;
+            }
+            
+            .article-section {
+                padding: 1.5rem;
+                margin-top: 1rem;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .tool-promo-section {
+                margin: 2rem auto;
+            }
+            
+            .tool-promo-container {
+                padding: 1.5rem;
+            }
+            
+            .tool-promo-title {
+                font-size: 1.6rem;
+            }
+            
+            .tool-promo-subtitle {
+                font-size: 1rem;
+            }
+            
+            .tool-feature-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .floating-tool-btn {
+                bottom: 80px;
+                right: 15px;
+                padding: 10px 16px;
+                font-size: 0.9rem;
+            }
+            
+            .footer-links {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
+            
+            .social-icons {
+                gap: 0.6rem;
+            }
+            
+            .social-icon {
+                width: 42px;
+                height: 42px;
+                font-size: 1.2rem;
+            }
+            
+            .menu-card {
+                top: 60px;
+                left: 10px;
+                right: 10px;
+                width: calc(100% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .article-section {
+                margin: 1rem auto;
+                padding: 1rem;
+            }
+            
+            .article-title {
+                font-size: 1.8rem;
+            }
+            
+            .article-subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .article-image-compact img {
+                height: 200px;
+            }
+            
+            .tool-promo-container {
+                padding: 1rem;
+            }
+            
+            .tool-promo-title {
+                font-size: 1.4rem;
+            }
+            
+            .tool-promo-button {
+                padding: 0.7rem 1.5rem;
+                font-size: 1rem;
+            }
+            
+            .floating-tool-btn span {
+                display: none;
+            }
+            
+            .floating-tool-btn {
+                width: 50px;
+                height: 50px;
+                padding: 0;
+                justify-content: center;
+                border-radius: 50%;
+            }
+        }
+
+        /* Add this to prevent image selection and clicks */
+        img {
+            pointer-events: none !important;
+            -webkit-user-select: none !important;
+            -moz-user-select: none !important;
+            -ms-user-select: none !important;
+            user-select: none !important;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ul>
+            <li><a href="https://toolivo.github.io/tool/"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="https://toolivo.github.io/blog/">Blogs</a></li>
+            <li aria-current="page">Image Converter Guide</li>
+        </ul>
+    </nav>
+
+    <!-- Menu Card -->
+    <div class="menu-card" id="menuCard">
+        <div class="menu-header">
+            <h3>Menu</h3>
+            <button class="menu-close" id="menuClose" aria-label="Close menu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+        </div>
+        <ul class="menu-list">
+            <li class="menu-item">
+                <a href="https://toolivo.github.io/tool/" class="menu-link">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                        <polyline points="9 22 9 12 15 12 15 22"/>
+                    </svg>
+                    Home
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://toolivo.github.io/blogs/" class="menu-link">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                    </svg>
+                    Tools
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://toolivo.github.io/tool/community.html" class="menu-link">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                        <circle cx="9" cy="7" r="4"/>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                    Community
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://toolivo.github.io/tool/about-us.html" class="menu-link">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <circle cx="12" cy="12" r="10"/>
+                        <line x1="12" y1="16" x2="12" y2="12"/>
+                        <line x1="12" y1="8" x2="12.01" y2="8"/>
+                    </svg>
+                    About Us
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://toolivo.github.io/tool/contact-us.html" class="menu-link">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="backdrop" id="backdrop"></div>
+
+    <!-- Header -->
+    <header>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="logo-container">
+            <a href="https://toolivo.github.io/tool/">
+                <img 
+                    src="https://toolivo.github.io/blogs/toolivo-blogs-logo.webp"
+                    alt="Toolivo Blogs Logo"                   
+                    class="logo"                  
+               >
+            </a>
+        </div>
+        <div style="width: 48px;"></div>
+    </header>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="theme-icon sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+            <line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2"/>
+            <line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2"/>
+            <line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2"/>
+            <line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <svg class="theme-icon moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <span class="sr-only">Toggle theme</span>
+    </button>
+
+    <!-- Article Meta Info - Date and Author -->
+    <div class="article-meta">
+        <div class="article-date">
+            <i class="fas fa-calendar-alt meta-icon"></i>
+            <span id="currentDate">March 29, 2025</span>
+        </div>
+        <div class="article-author">
+            <i class="fas fa-user meta-icon"></i>
+            <span>Mushfikur Riad</span>
+        </div>
+    </div>
+
+    <!-- ARTICLE SECTION FROM FIRST HTML -->
+  <section class="article-section">
+    <div class="article-header">
+        <div class="article-badge">
+            <i class="fas fa-image"></i> Format Freedom
+        </div>
+        <h1 class="article-title">Toolivo Image Converter – Free Online Image Format Converter</h1>
+        <p class="article-subtitle">Switch between PNG, JPG, WebP, and GIF — instantly, accurately, and 100% free</p>
+    </div>
+
+    <div class="article-single-content">
+        <!-- VISIBLE CONTENT -->
+        <div class="visible-content">
+            <div class="article-intro">
+                <p>You shouldn't have to pay, wait, or sacrifice privacy just because a file format won't cooperate. Toolivo Image Converter was built to solve a simple but universal problem: needing to switch between image formats like PNG, JPG, WebP, and GIF — quickly, reliably, and without fuss.</p>
+                <p>There's no installation, no account creation, and no hidden tiers. Everything runs in your browser, on your device. Whether you're converting a single screenshot or preparing a batch of assets for a website, Toolivo gives you full control — with zero trade-offs.</p>
+            </div>
+            
+<div class="article-image-compact">
+                            <img 
+                                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXYt1UqVa0NZFwLgDWrdQsz6zQSk5i3RBVoEZiJJFA7QAuM70GMAkIrAN-QxGg39H8g2_l-WTsWuceJguhQjAXwc7DPx_dzFrBZx24W3JUR8o3onUxtlHHBsvySwhGHp5MHhhb1c4Jkj-X9cGp9nFWGOo-XQLBqd6GFj3TZvX51euIvg/s1600/1766922423011.webp" 
+                                alt="Image format conversion workflow: JPG to PNG to WebP for web optimization" 
+                                loading="lazy"
+                            >
+                        </div>
+            <p class="stats-intro">No gimmicks. No limitations. Just a straightforward, user-first approach to image format conversion — backed by these core promises:</p>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">No</div>
+                    <div class="stat-label">Sign-Up Required</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">∞</div>
+                    <div class="stat-label">Unlimited Conversions</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">Free</div>
+                    <div class="stat-label">Forever</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">100%</div>
+                    <div class="stat-label">Private & Local</div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <div class="section-header">
+                    <i class="fas fa-exchange-alt section-icon"></i>
+                    <h3 class="section-title-sm">Format Conversion, Done Right</h3>
+                </div>
+                <div class="section-content">
+                    <p>Image conversion isn't just about changing a file extension — it's about preserving intent. A logo must keep its transparency. A screenshot needs crisp edges. An animation should stay fluid. Toolivo handles the technical details so you don't have to.</p>
+
+                    <p>With one tool, you can:</p>
+                    <ul class="format-list">
+                        <li><strong>Convert PNG to JPG</strong> — for email clients, social previews, or legacy systems that don't support transparency. This is the go-to move for a reliable PNG to JPG converter online.</li>
+                        <li><strong>Convert JPG to PNG</strong> — to restore lossless quality when editing, adding overlays, or preparing assets that require transparent backgrounds. Every designer needs a solid JPG to PNG converter free in their toolkit.</li>
+                        <li><strong>Convert image to WebP free</strong> — to adopt the modern standard for the web. WebP delivers richer color and transparency in smaller files — and works across Chrome, Firefox, Safari, and Edge.</li>
+                        <li><strong>Convert WebP to PNG</strong> — for compatibility with design software like Photoshop, Figma, or Canva, which may not yet import WebP natively. This makes Toolivo a dependable WebP to PNG converter online.</li>
+                        <li><strong>Free GIF to PNG converter</strong> — to extract static frames, simplify animated assets, or prepare stills for editing. Also useful when GIF's limited color palette causes banding.</li>
+                    </ul>
+
+                    <p>No format is inherently better — only more appropriate for the task. Toolivo gives you the freedom to choose — and switch — whenever your workflow demands it. This makes it a true online image format converter: purpose-built, reliable, and format-agnostic.</p>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <div class="section-header">
+                    <i class="fas fa-layer-group section-icon"></i>
+                    <h3 class="section-title-sm">Batch Power for Real Workflows</h3>
+                </div>
+                <div class="section-content">
+                    <p>Whether you're prepping a presentation, updating a website, or organizing a design library — chances are, you're not converting just one image. That's why Toolivo includes full batch image converter free support.</p>
+
+                    <p>Select dozens of files. Pick your target format — say, convert PNG to WebP online for your blog media folder — and convert them all at once. Each file retains its original dimensions, color depth, and — where possible — transparency. You don't need to reconfigure settings per image; Toolivo applies your choice uniformly.</p>
+                    
+                    
+
+                    <p>This is especially valuable when migrating legacy content. Imagine updating a 5-year-old WordPress site: hundreds of PNG banners and JPG thumbnails can be standardized to WebP for performance, or converted to JPG for email templates — all in one session.</p>
+
+                    <div class="tips-box">
+                        <div class="tips-header">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>When to Switch Formats</span>
+                        </div>
+                        <ul class="tips-list">
+                            <li>→ <strong>JPG needed?</strong> Convert PNG or WebP for universal compatibility — especially in email clients like Outlook or older mobile apps.</li>
+                            <li>→ <strong>Transparency required?</strong> Convert JPG to PNG or WebP (lossless mode) to support overlays, badges, or UI elements.</li>
+                            <li>→ <strong>Sharing with non-tech users?</strong> WebP to JPG avoids "can't open" issues — many desktop users still lack native WebP support outside browsers.</li>
+                            <li>→ <strong>Archiving originals?</strong> Keep backups in PNG; use converted versions for delivery — Toolivo helps you maintain both workflows seamlessly.</li>
+                        </ul>
+                    </div>
+
+                    <p>This isn't just convenience — it's consistency. Every image in your set gets the same treatment, eliminating format drift across projects and reducing troubleshooting time.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEE MORE CONTENT -->
+        <div class="see-more-content" id="see-more-content">
+            <div class="content-section">
+                <div class="section-header">
+                    <i class="fas fa-file-image section-icon"></i>
+                    <h3 class="section-title-sm">Truly Free. Truly Local.</h3>
+                </div>
+                <div class="section-content">
+                    <p>Toolivo is built on a simple principle: your files belong to you. There are no servers, no uploads, and no hidden data collection. Everything — from format detection to pixel remapping — happens inside your browser using the HTML5 Canvas API and native encoding capabilities.</p>
+
+                    <p>That means:</p>
+                    <ul class="checklist">
+                        <li>✅ Instant results — no waiting for uploads or queues</li>
+                        <li>✅ Full fidelity — transparency, gamma, and color profiles are respected during conversion</li>
+                        <li>✅ Works on sensitive or copyrighted material — no risk of exposure, accidental sharing, or third-party access</li>
+                        <li>✅ No signups, no trials, no "pro" upsells — ever</li>
+                    </ul>
+                    
+                   <div class="article-image-compact">
+                            <img 
+                                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPN-bNKrg1ZyE1t9kut0jt8ZdxBo_yeA-UYeJutrVx7BjLgDrPx7nkXKYHE_Ks4aCJHzgIIr068OoS1TibfQgyIJ4y-9wan8jGB5pARw1njA7ozrjdy-4bRWBccOSwF7rKr2bY8NwzOHq8A3G8xm-aTan5dX9A8vC0YBTjVw8RN6oInQ/s1600/image-compressor-imag-2.webp" 
+                                alt="Batch image compression dashboard showing 45% file size reduction and progress status" 
+                                loading="lazy"
+                            >
+                        </div>
+
+                    <p>In a world of "free" tools that trade privacy for access, Toolivo is refreshingly straightforward: a <strong>free online PNG converter</strong>, a <strong>free online JPG converter free</strong>, a <strong>free WebP converter online</strong>, a <strong>PNG to JPG converter online</strong>, a <strong>JPG to PNG converter free</strong>, a <strong>WebP to PNG converter online</strong>, and more — all in one place. You're not giving up control for convenience. You're getting both.</p>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <div class="section-header">
+                    <i class="fas fa-cogs section-icon"></i>
+                    <h3 class="section-title-sm">How It Works: Format Conversion in 4 Steps</h3>
+                </div>
+                <div class="section-content">
+                    <ol class="step-list">
+                        <li><strong>Upload.</strong> Drag & drop files — or click "Browse." Supports PNG, JPG, GIF, WebP, BMP, TIFF — no format left behind.</li>
+                        <li><strong>Pick Your Target.</strong> Choose WebP, PNG, JPG, or GIF — clearly labeled, one click away. No confusing dropdowns or nested menus.</li>
+                        <li><strong>Preview (Optional).</strong> See how the new format renders — check transparency edges, text sharpness, and color accuracy with the built-in side-by-side viewer.</li>
+                        <li><strong>Download.</strong> Get your converted files individually, selected subset, or as a ZIP archive — all with original filenames (or custom-renamed if you prefer).</li>
+                    </ol>
+
+                    <p>That's it. No tutorials. No software installs. No format anxiety.</p>
+
+                    <p>Need to convert JPG to PNG online for a client? Done in 20 seconds.  
+                    Prepping assets for a developer who only wants WebP? Convert image formats online in bulk.  
+                    Recovering from a tool that corrupted your files? Re-convert with confidence — Toolivo never alters your originals.</p>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <div class="section-header">
+                    <i class="fas fa-users section-icon"></i>
+                    <h3 class="section-title-sm">Built for Real People, Real Needs</h3>
+                </div>
+                <div class="section-content">
+                    <p>Toolivo serves specific, recurring needs across professions:</p>
+
+                    <div class="use-case-grid">
+                        <div class="use-case-card">
+                            <div class="use-case-icon"><i class="fas fa-laptop-code"></i></div>
+                            <h4>Developers</h4>
+                            <p>My CMS requires WebP. Designer sent PNGs. Toolivo bridges the gap — in seconds, with no build-step or CLI dependency.</p>
+                        </div>
+                        <div class="use-case-card">
+                            <div class="use-case-icon"><i class="fas fa-paint-brush"></i></div>
+                            <h4>Designers</h4>
+                            <p>Client asked for JPG previews of PNG mockups. No export hassle — just convert, rename, and send.</p>
+                        </div>
+                        <div class="use-case-card">
+                            <div class="use-case-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                            <h4>Educators</h4>
+                            <p>LMS only accepts JPG. Convert student-submitted PNGs easily for grading — no desktop software needed on lab computers.</p>
+                        </div>
+                        <div class="use-case-card">
+                            <div class="use-case-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <h4>Mobile Users</h4>
+                            <p>No app install. Works on phone — convert and share in one flow.Uor Webpage is totally mobile-friendly.</p>
+                        </div>
+                    </div>
+
+                    <p>Toolivo isn't trying to be an editor, optimizer, or AI enhancer. It's a precision tool for one job — and it does that job exceptionally well. When you need to convert image to WebP free, or run a free GIF to PNG converter, or batch process assets as a batch image converter free solution — it's there, ready, and reliable.</p>
+
+                    <blockquote class="testimonial">
+                        <p>I use it weekly. Not because I want to convert files — but because I have to. Toolivo makes that necessity effortless.<br><cite>— Alex T., UX Designer</cite></p>
+                    </blockquote>
+
+                    <div class="final-insight">
+                        <strong>Final Thought:</strong> Format compatibility shouldn't be a bottleneck. With Toolivo Image Converter, switching between PNG, JPG, WebP, and GIF is as simple as saving a file. No learning curve. No compromises. Just reliable, free, format freedom — exactly as a free online image converter should be.
+                    </div>
+
+                    <div class="cta-box">
+                        <p>Stuck in format limbo? Break free — instantly.</p>
+                        <a href="#uploadArea" class="btn btn-primary">
+                            <i class="fas fa-exchange-alt"></i> Convert Your Images Now — Free & Private
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Toolivo Image Compressor Promotional Section -->
+   <section class="tool-promo-section">
+    <div class="tool-promo-container">
+        <!-- Logo/Icon -->
+        <div class="tool-promo-icon">
+            <i class="fas fa-exchange-alt"></i>
+        </div>
+        
+        <h2 class="tool-promo-title">Toolivo Image Converter – Free Online Image Format Converter</h2>
+        <p class="tool-promo-subtitle">
+            Convert image formats online with Toolivo’s free image converter. 
+            Easily convert PNG to JPG, JPG to PNG, image to WebP, or WebP to PNG while keeping image quality sharp and file size optimized.
+        </p>
+        
+        <!-- Feature Grid -->
+        <div class="tool-feature-grid">
+            <div class="tool-feature-card">
+                <i class="fas fa-bolt tool-feature-icon"></i>
+                <h4 class="tool-feature-title">Instant Image Conversion</h4>
+                <p class="tool-feature-desc">
+                    Convert images instantly with live preview and fast processing.
+                </p>
+            </div>
+            
+            <div class="tool-feature-card">
+                <i class="fas fa-shield-alt tool-feature-icon"></i>
+                <h4 class="tool-feature-title">100% Private & Secure</h4>
+                <p class="tool-feature-desc">
+                    All image conversion happens locally in your browser. No uploads required.
+                </p>
+            </div>
+            
+            <div class="tool-feature-card">
+                <i class="fas fa-images tool-feature-icon"></i>
+                <h4 class="tool-feature-title">Batch Image Converter</h4>
+                <p class="tool-feature-desc">
+                    Convert multiple images at once and download them together.
+                </p>
+            </div>          
+        </div>
+        
+        <!-- Call to Action Button -->
+        <a href="https://toolivo.github.io/tool/image-converter.html" 
+           class="tool-promo-button" 
+           id="toolPromoButton">
+            <i class="fas fa-external-link-alt"></i>
+            Use Free Image Converter
+        </a>
+        
+        <!-- Stats/Trust Indicator -->
+        <p class="tool-stats">
+            <i class="fas fa-star"></i> Used by creators, developers, and website owners worldwide
+        </p>
+    </div>
+</section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section lazy-section">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-list">
+        <!-- First 3 visible by default -->
+        <div class="faq-group" id="faq-initial">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Are my images uploaded or stored anywhere?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        No. This free online image converter works completely inside your browser.
+                        Images are never uploaded, stored, or shared, ensuring full privacy while you convert image formats online.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Can I convert images without losing quality?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Yes. You can convert images like JPG to PNG, PNG to WebP, or WebP to PNG while maintaining high visual quality.
+                        The tool preserves resolution and clarity during image format conversion.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Which image formats does this tool support?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        This online image format converter supports JPG, PNG, WebP, and GIF.
+                        You can easily use it as a PNG to JPG converter online, JPG to PNG converter free, or image to WebP converter.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hidden extra FAQs -->
+        <div class="faq-group" id="faq-extra" hidden>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Is there any limit on image size or number of files?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        There are no fixed limits. You can convert large images and use the batch image converter free feature
+                        to process multiple files at once. Performance depends on your device and browser.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Can I convert multiple images at the same time?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Yes. This tool supports batch image conversion, allowing you to convert multiple images
+                        to JPG, PNG, or WebP in one go and download them together.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Can I convert PNG to WebP or WebP to PNG?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Absolutely. You can convert PNG to WebP online for smaller file sizes,
+                        or use the WebP to PNG converter online when you need wider compatibility.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Is this image converter free to use?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Yes. This is a completely free image converter online with no sign-up,
+                        no watermark, and no daily usage limits.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Does image format conversion help website performance?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Yes. Converting images to modern formats like WebP reduces file size,
+                        improves loading speed, and supports better SEO and user experience.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Can I use this image converter on mobile devices?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Yes. The tool is fully responsive and works smoothly on mobile phones,
+                        tablets, and desktop browsers.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Do I need an account or email to use it?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        No account or email is required. You can start converting images instantly
+                        without registration or login.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- See More Button -->
+        <button class="faq-see-more-btn" id="faq-see-more">
+            See more FAQs <i class="fas fa-chevron-down"></i>
+        </button>
+    </div>
+</section>
+
+    <!-- Share with Friends Section -->
+    <section class="social-sharing">
+        <h3>Share This Article</h3>
+        <div class="social-icons" id="socialIcons">
+            <!-- Social icons will be dynamically loaded -->
+        </div>
+    </section>
+
+    <!-- LATEST ARTICLES SECTION (Renamed from Related Articles) -->
+   <section class="latest-articles lazy-section">
+    <h2>Latest Articles</h2>
+    <div class="articles-grid">
+        
+        <div class="article-card">
+            <h3>Complete Guide to Image Compression & Optimization</h3>
+            <p>High-quality images are essential for engaging websites, blogs, and social media. But large image files slow down your site and hurt...</p>
+            <div class="card-footer">
+                <div class="card-article-date">
+                    <i class="fas fa-calendar-alt card-date-icon"></i>
+                    <span>December 20, 2025</span>
+                </div>
+                <a href="image-converter-guide.html" class="card-read-more-btn">
+                    <span>Read More</span> <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="article-card">
+            <h3>Toolivo Text Analyzer– The Smart Way to Improve Your Writing</h3>
+            <p>The Complete Guide to Understanding and Optimizing Your Writing for Maximum Impact</p>
+            <div class="card-footer">
+                <div class="card-article-date">
+                    <i class="fas fa-calendar-alt card-date-icon"></i>
+                    <span>December 12, 2025</span>
+                </div>
+                <a href="text-analyzer-guide.html" class="card-read-more-btn">
+                    <span>Read More</span> <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="article-card">
+            <h3>SEO Best Practices for Images</h3>
+            <p>Learn how to optimize images for search engines, including alt text, file naming, compression, and structured data implementation.</p>
+            <div class="card-footer">
+                <div class="card-article-date">
+                    <i class="fas fa-calendar-alt card-date-icon"></i>
+                    <span>November 22, 2025</span>
+                </div>
+                <a href="seo-images-article.html" class="card-read-more-btn">
+                    <span>Read More</span> <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="article-card">
+            <h3>Responsive Images with srcset</h3>
+            <p>Master the srcset attribute to deliver optimized images across different devices and screen resolutions for better performance.</p>
+            <div class="card-footer">
+                <div class="card-article-date">
+                    <i class="fas fa-calendar-alt card-date-icon"></i>
+                    <span>November 12, 2025</span>
+                </div>
+                <a href="responsive-images-article.html" class="card-read-more-btn">
+                    <span>Read More</span> <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Simple Footer -->
+    <footer class="simple-footer">
+        <div class="footer-links">
+            <a href="https://toolivo.github.io/tool/terms-conditions.html">Terms & Conditions</a>
+            <a href="https://toolivo.github.io/tool/privacy-policy.html">Privacy Policy</a>
+            <a href="https://toolivo.github.io/tool/disclaimer.html">Disclaimer</a>
+            <a href="https://toolivo.github.io/tool/about-us.html">About Us</a>
+            <a href="https://toolivo.github.io/tool/contact-us.html">Contact Us</a>
+            <a href="https://toolivo.github.io/tool/">Tools</a>
+        </div>
+        <div class="footer-bottom">
+            <p>Toolivo &copy; 2026 — All rights reserved</p>
+            <p class="creator-credit">Created with ❤️ by Mushfikur Riad</p>
+        </div>
+    </footer>
+
+    <!-- Floating Tool Promo Button -->
+    <button class="floating-tool-btn" id="floatingToolBtn" aria-label="Try Image Converter">
+  <i class="fas fa-exchange-alt"></i>  <!-- or fa-sync, fa-image, fa-file-export -->
+  <span>Try Now</span>
+</button>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </button>
+
+    <script>
+        // === Menu Functionality ===
+        const menuToggle = document.getElementById('menuToggle');
+        const menuCard = document.getElementById('menuCard');
+        const menuClose = document.getElementById('menuClose');
+        const backdrop = document.getElementById('backdrop');
+
+        function openMenu() {
+            menuCard.classList.add('open');
+            backdrop.classList.add('visible');
+            menuToggle.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+            menuCard.classList.remove('open');
+            backdrop.classList.remove('visible');
+            menuToggle.classList.remove('open');
+            document.body.style.overflow = '';
+        }
+
+        menuToggle.addEventListener('click', () => {
+            menuCard.classList.contains('open') ? closeMenu() : openMenu();
+        });
+
+        menuClose.addEventListener('click', closeMenu);
+        backdrop.addEventListener('click', closeMenu);
+
+        // === Set Current Date ===
+        function setCurrentDate() {
+            const dateElement = document.getElementById('currentDate');
+            const now = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const formattedDate = now.toLocaleDateString('en-US', options);
+            dateElement.textContent = formattedDate;
+        }
+
+        // === Animated Theme Toggle Functionality ===
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+
+        // Check for saved theme or system preference
+        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const savedTheme = localStorage.getItem('theme');
+        const isDark = savedTheme === 'dark' || (!savedTheme && systemPrefersDark);
+
+        async function toggleTheme() {
+            if (!document.startViewTransition) {
+                // Fallback for browsers without View Transitions API
+                const newTheme = !body.classList.contains('dark-mode');
+                applyTheme(newTheme);
+                return;
+            }
+
+            await document.startViewTransition(() => {
+                const newTheme = !body.classList.contains('dark-mode');
+                body.classList.toggle('dark-mode', newTheme);
+                localStorage.setItem('theme', newTheme ? 'dark' : 'light');
+            }).ready;
+
+            // Create circular animation
+            const { top, left, width, height } = themeToggle.getBoundingClientRect();
+            const x = left + width / 2;
+            const y = top + height / 2;
+            const maxRadius = Math.hypot(
+                Math.max(left, window.innerWidth - left),
+                Math.max(top, window.innerHeight - top)
+            );
+
+            document.documentElement.animate(
+                {
+                    clipPath: [
+                        `circle(0px at ${x}px ${y}px)`,
+                        `circle(${maxRadius}px at ${x}px ${y}px)`,
+                    ],
+                },
+                {
+                    duration: 400,
+                    easing: 'ease-in-out',
+                    pseudoElement: '::view-transition-new(root)',
+                }
+            );
+        }
+
+        function applyTheme(isDarkMode) {
+            body.classList.toggle('dark-mode', isDarkMode);
+            localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        }
+
+        // Apply theme on page load
+        applyTheme(isDark);
+
+        // Toggle theme on button click
+        themeToggle.addEventListener('click', toggleTheme);
+
+        // === Social Icons Functionality ===
+        const socialIconsContainer = document.getElementById('socialIcons');
+        
+        // All 10 social media icons from original code
+        const socialIconsData = [
+            { 
+                name: 'x-twitter', 
+                label: 'Share on X',
+                svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>`
+            },
+            { 
+                name: 'linkedin', 
+                label: 'Share on LinkedIn',
+                svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                    <rect x="2" y="9" width="4" height="12"/>
+                    <circle cx="4" cy="4" r="2"/>
+                </svg>`
+            },
+            { 
+                name: 'facebook', 
+                label: 'Share on Facebook',
+                svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                </svg>`
+            },
+            { 
+                name: 'whatsapp', 
+                label: 'Share on WhatsApp',
+                svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893 0-3.189-1.248-6.189-3.515-8.444"/>
+                </svg>`
+            },
+            { 
+                name: 'telegram', 
+                label: 'Share on Telegram',
+                svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.14.141-.259.259-.374.261l.213-3.053 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.136-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/>
+                </svg>`
+            },
+            { 
+                name: 'instagram', 
+                label: 'Share on Instagram',
+                svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.65 0 3 1.35 3 3v10c0 1.65-1.35 3-3 3H7c-1.65 0-3-1.35-3-3V7c0-1.65 1.35-3 3-3h10zm-5 3.5A4.5 4.5 0 1 0 16.5 12 4.5 4.5 0 0 0 12 7.5zm0 7A2.5 2.5 0 1 1 14.5 12 2.5 2.5 0 0 1 12 14.5zm4.75-8.75a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25z"/>
+                </svg>`
+            },
+            { 
+                name: 'reddit', 
+                label: 'Share on Reddit',
+                svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/>
+                </svg>`
+            },
+            { 
+                name: 'pinterest', 
+                label: 'Share on Pinterest',
+                svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+                </svg>`
+            },
+            {
+                name: 'messenger',
+                label: 'Share on Messenger',
+                svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.49 2 2 6.2 2 11.15c0 2.92 1.6 5.55 4.07 7.34V22l3.68-2.02c.99.28 2.07.43 3.25.43 5.51 0 10-4.2 10-9.26C23 6.2 17.51 2 12 2zm4.9 7.6-3.3 3.5-2.1-2.3-4.5 2.3 4.7-4.9 2.1 2.3 3.1-1.9z"/>
+                </svg>`
+            },
+            { 
+                name: 'email', 
+                label: 'Share via Email',
+                svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>`
+            }
+        ];
+
+        // Function to load social icons
+        function loadSocialIcons() {
+            socialIconsData.forEach(icon => {
+                const socialIcon = document.createElement('a');
+                socialIcon.href = '#';
+                socialIcon.className = `social-icon ${icon.name}`;
+                socialIcon.setAttribute('aria-label', icon.label);
+                socialIcon.innerHTML = icon.svg;
+                
+                socialIconsContainer.appendChild(socialIcon);
+            });
+            
+            // Add event listeners to social icons
+            addSocialIconEventListeners();
+        }
+        
+        // Social Media Sharing Functionality with Click Effects
+        function addSocialIconEventListeners() {
+            const socialIcons = document.querySelectorAll('.social-icon');
+            
+            socialIcons.forEach(icon => {
+                icon.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    
+                    // Add click animation
+                    icon.classList.add('clicked');
+                    setTimeout(() => {
+                        icon.classList.remove('clicked');
+                    }, 400);
+                    
+                    const currentUrl = encodeURIComponent(window.location.href);
+                    const title = encodeURIComponent(document.title);
+                    const description = encodeURIComponent("Complete Guide to Image Compression & Optimization - Shrink images, maintain quality, and boost website performance");
+                    
+                    let shareUrl = '';
+                    
+                    if (icon.classList.contains('x-twitter')) {
+                        shareUrl = `https://twitter.com/intent/tweet?text=${title}&url=${currentUrl}`;
+                    } else if (icon.classList.contains('linkedin')) {
+                        shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${currentUrl}`;
+                    } else if (icon.classList.contains('facebook')) {
+                        shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`;
+                    } else if (icon.classList.contains('whatsapp')) {
+                        shareUrl = `https://api.whatsapp.com/send?text=${title}%20${currentUrl}`;
+                    } else if (icon.classList.contains('telegram')) {
+                        shareUrl = `https://t.me/share/url?url=${currentUrl}&text=${title}`;
+                    } else if (icon.classList.contains('instagram')) {
+                        // Instagram doesn't support direct sharing, open profile
+                        shareUrl = `https://www.instagram.com/`;
+                    } else if (icon.classList.contains('reddit')) {
+                        shareUrl = `https://reddit.com/submit?url=${currentUrl}&title=${title}`;
+                    } else if (icon.classList.contains('pinterest')) {
+                        shareUrl = `https://pinterest.com/pin/create/button/?url=${currentUrl}&description=${title}`;
+                    } else if (icon.classList.contains('messenger')) {
+                        shareUrl = `https://www.facebook.com/dialog/send?link=${currentUrl}&app_id=YOUR_APP_ID&redirect_uri=${currentUrl}`;
+                    } else if (icon.classList.contains('email')) {
+                        shareUrl = `mailto:?subject=${title}&body=${description}%20${currentUrl}`;
+                    }
+                    
+                    if (shareUrl) {
+                        if (icon.classList.contains('email')) {
+                            // For email, don't open in new window
+                            window.location.href = shareUrl;
+                        } else {
+                            window.open(shareUrl, '_blank', 'width=600,height=400');
+                        }
+                    }
+                });
+            });
+        }
+
+        // Lazy loading implementation - only for related articles section
+        function lazyLoadSections() {
+            const sections = document.querySelectorAll('.lazy-section');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+            
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        }
+
+        // Back to top functionality
+        const backToTopBtn = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Article card interactions
+        document.querySelectorAll('.article-card').forEach(card => {
+            card.addEventListener('click', () => {
+                // Add a subtle click effect
+                card.style.transform = 'scale(0.98)';
+                setTimeout(() => {
+                    card.style.transform = '';
+                }, 200);
+                
+                // In a real implementation, this would navigate to the article
+                console.log('Article clicked - would navigate to full article');
+            });
+        });
+        
+        // Enhanced FAQ toggle with smooth animation, grouped visibility, and outside-click close
+        function initFAQs() {
+            const allFAQItems = document.querySelectorAll('.faq-item');
+            allFAQItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (!question.dataset.initialized) {
+                    question.addEventListener('click', (e) => {
+                        e.stopPropagation(); // Prevent triggering outside-click handler
+                        const isActive = item.classList.contains('active');
+                        // Close all others
+                        allFAQItems.forEach(other => {
+                            if (other !== item) {
+                                other.classList.remove('active');
+                            }
+                        });
+                        // Toggle current
+                        item.classList.toggle('active', !isActive);
+                    });
+                    question.dataset.initialized = 'true';
+                }
+            });
+        }
+
+        // Close all FAQs on outside click/tap
+        function closeAllFAQs() {
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('active');
+            });
+        }
+
+        // Global outside-click listener
+        document.addEventListener('click', (e) => {
+            const clickedInsideFAQ = e.target.closest('.faq-item');
+            if (!clickedInsideFAQ) {
+                closeAllFAQs();
+            }
+        });
+
+        // Initialize first batch
+        initFAQs();
+
+        // Enhanced FAQ "See More" with smooth entry animation
+        const seeMoreBtn = document.getElementById('faq-see-more');
+        const extraFAQs = document.getElementById('faq-extra');
+
+        if (seeMoreBtn && extraFAQs) {
+            seeMoreBtn.addEventListener('click', () => {
+                // 1. Reveal container with smooth opacity/transform
+                extraFAQs.style.opacity = '0';
+                extraFAQs.style.transform = 'translateY(10px)';
+                extraFAQs.removeAttribute('hidden');
+                
+                // Trigger reflow
+                void extraFAQs.offsetWidth;
+                
+                // 2. Animate container in
+                extraFAQs.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+                extraFAQs.style.opacity = '1';
+                extraFAQs.style.transform = 'translateY(0)';
+
+                // 3. Fade out & remove button smoothly
+                seeMoreBtn.style.opacity = '0';
+                seeMoreBtn.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    seeMoreBtn.style.display = 'none';
+                }, 300);
+
+                // 4. Initialize new FAQs
+                setTimeout(() => {
+                    initFAQs();
+                    
+                    // 5. Animate each newly revealed FAQ item
+                    const newItems = extraFAQs.querySelectorAll('.faq-item');
+                    newItems.forEach((item, i) => {
+                        item.style.opacity = '0';
+                        item.style.transform = 'translateY(10px)';
+                        item.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+                        setTimeout(() => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'translateY(0)';
+                        }, i * 80);
+                    });
+                }, 100);
+            });
+        }
+
+        // Toolivo Image Compressor Promo JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            // Track promo button clicks
+            const toolPromoButton = document.getElementById('toolPromoButton');
+            if (toolPromoButton) {
+                toolPromoButton.addEventListener('click', function(e) {
+                    // Send analytics event
+                    console.log('Image Compressor promo clicked');
+                    
+                    // Add visual feedback
+                    this.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        this.style.transform = '';
+                    }, 200);
+                });
+            }
+            
+            // Add scroll-triggered animation for promo section
+            const promoSection = document.querySelector('.tool-promo-section');
+            if (promoSection) {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.style.animation = 'fadeInUp 0.6s ease-out forwards';
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.1 });
+                
+                observer.observe(promoSection);
+            }
+            
+            // Highlight feature cards on hover with color shift
+            const featureCards = document.querySelectorAll('.tool-feature-card');
+            featureCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    const icon = this.querySelector('.tool-feature-icon');
+                    if (icon) {
+                        icon.style.transform = 'scale(1.1)';
+                        icon.style.transition = 'transform 0.3s ease';
+                    }
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    const icon = this.querySelector('.tool-feature-icon');
+                    if (icon) {
+                        icon.style.transform = 'scale(1)';
+                    }
+                });
+            });
+            
+            // Floating button functionality
+            const floatingBtn = document.getElementById('floatingToolBtn');
+            if (floatingBtn) {
+                floatingBtn.addEventListener('click', function() {
+                    window.open('https://toolivo.github.io/tool/image-converter.html', '_blank');
+                    
+                    // Add click animation
+                    this.style.transform = 'scale(0.9)';
+                    setTimeout(() => {
+                        this.style.transform = '';
+                    }, 200);
+                    
+                    // Track floating button click
+                    console.log('Floating image compressor button clicked');
+                });
+            }
+        });
+
+        // Simple solution to prevent image clicks and long presses
+        document.addEventListener('DOMContentLoaded', function() {
+            // Select all images
+            const images = document.querySelectorAll('img');
+            
+            // Function to disable image interactions
+            function disableImage(img) {
+                // Prevent all pointer events
+                img.style.pointerEvents = 'none';
+                
+                // Prevent click
+                img.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                });
+                
+                // Prevent context menu (right-click/long press)
+                img.addEventListener('contextmenu', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                });
+                
+                // Also handle images inside links
+                const parent = img.closest('a');
+                if (parent) {
+                    parent.style.pointerEvents = 'none';
+                }
+            }
+            
+            // Apply to all images
+            images.forEach(disableImage);
+            
+            // Handle any new images added dynamically
+            const observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                    if (mutation.addedNodes.length) {
+                        document.querySelectorAll('img').forEach(disableImage);
+                    }
+                });
+            });
+            
+            // Start observing
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true
+            });
+        });
+
+// Make entire article cards clickable with hover effect
+document.querySelectorAll('.article-card-link').forEach(link => {
+    link.addEventListener('mouseenter', function() {
+        const card = this.querySelector('.article-card');
+        if (card) {
+            card.style.transform = 'translateY(-5px)';
+        }
+    });
+    
+    link.addEventListener('mouseleave', function() {
+        const card = this.querySelector('.article-card');
+        if (card) {
+            card.style.transform = 'translateY(0)';
+        }
+    });
+    
+    // Optional: Add click animation
+    link.addEventListener('click', function(e) {
+        const card = this.querySelector('.article-card');
+        if (card) {
+            card.style.transform = 'scale(0.98)';
+            setTimeout(() => {
+                card.style.transform = '';
+            }, 200);
+        }
+        // Link will naturally navigate to the href
+    });
+});
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            setCurrentDate(); // Set the current date
+            loadSocialIcons();
+            lazyLoadSections(); // Only lazy loads related articles section
+            
+            // Small scroll on load for better positioning
+            setTimeout(() => {
+                if (window.scrollY === 0) {
+                    window.scrollTo({
+                        top: 45,
+                        behavior: 'smooth'
+                    });
+                }
+            }, 10);
+        });
+        
+        // Make entire article cards clickable
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.article-card').forEach(card => {
+    const link = card.querySelector('.card-read-more-btn');
+    if (!link || !link.href) return;
+
+    // 1. Style card as clickable (cursor + focusable)
+    card.style.cursor = 'pointer';
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('role', 'link');
+    card.setAttribute('aria-label', `Read article: ${card.querySelector('h3')?.textContent || 'Untitled'}`);
+
+    // 2. Handle mouse & touch
+    const handleClick = (e) => {
+      // Ignore clicks on actual interactive children (future-proofing)
+      if (e.target.closest('a, button, input, label')) return;
+      e.preventDefault();
+      window.open(link.href, link.target || '_self');
+    };
+    card.addEventListener('click', handleClick);
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        window.open(link.href, link.target || '_self');
+      }
+    });
+
+    // 3. Sync visual states (hover/focus)
+    const syncStates = () => {
+      card.classList.toggle('card-hover', card.matches(':hover, :focus'));
+    };
+    card.addEventListener('mouseenter', syncStates);
+    card.addEventListener('mouseleave', syncStates);
+    card.addEventListener('focus', syncStates);
+    card.addEventListener('blur', syncStates);
+  });
+});
+
+        // View Transition Support
+        if ('startViewTransition' in document) {
+            document.documentElement.style.viewTransitionName = 'root';
+        }
+
+    </script>
+</body>
+</html>
