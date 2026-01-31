@@ -1,0 +1,296 @@
+[
+    {
+        "title": "Getting Started with Machine Learning",
+        "url": "/posts/getting-started-with-machine-learning.html",
+        "date": "2026-03-15",
+        "category": "AI"
+    },
+    {
+        "title": "The Future of Web Development",
+        "url": "/posts/future-of-web-development.html",
+        "date": "2026-03-10",
+        "category": "Web"
+    },
+    {
+        "title": "Understanding Neural Networks",
+        "url": "/posts/understanding-neural-networks.html",
+        "date": "2026-03-05",
+        "category": "AI"
+    },
+    {
+        "title": "JavaScript Performance Tips",
+        "url": "/posts/javascript-performance-tips.html",
+        "date": "2026-02-28",
+        "category": "JavaScript"
+    },
+    {
+        "title": "Building REST APIs with Node.js",
+        "url": "/posts/building-rest-apis-with-nodejs.html",
+        "date": "2026-02-20",
+        "category": "Backend"
+    },
+    {
+        "title": "React Hooks Deep Dive",
+        "url": "/posts/react-hooks-deep-dive.html",
+        "date": "2026-02-15",
+        "category": "React"
+    },
+    {
+        "title": "CSS Grid vs Flexbox",
+        "url": "/posts/css-grid-vs-flexbox.html",
+        "date": "2026-02-10",
+        "category": "CSS"
+    },
+    {
+        "title": "Introduction to Quantum Computing",
+        "url": "/posts/introduction-to-quantum-computing.html",
+        "date": "2026-02-05",
+        "category": "Quantum"
+    },
+    {
+        "title": "TypeScript Best Practices",
+        "url": "/posts/typescript-best-practices.html",
+        "date": "2026-01-30",
+        "category": "TypeScript"
+    },
+    {
+        "title": "Database Optimization Techniques",
+        "url": "/posts/database-optimization-techniques.html",
+        "date": "2026-01-25",
+        "category": "Database"
+    },
+    {
+        "title": "Mobile First Design Principles",
+        "url": "/posts/mobile-first-design-principles.html",
+        "date": "2026-01-20",
+        "category": "Design"
+    },
+    {
+        "title": "Python Data Analysis Tutorial",
+        "url": "/posts/python-data-analysis-tutorial.html",
+        "date": "2026-01-15",
+        "category": "Python"
+    },
+    {
+        "title": "Docker for Developers",
+        "url": "/posts/docker-for-developers.html",
+        "date": "2026-01-10",
+        "category": "DevOps"
+    },
+    {
+        "title": "State Management in Vue.js",
+        "url": "/posts/state-management-in-vuejs.html",
+        "date": "2026-01-05",
+        "category": "Vue"
+    },
+    {
+        "title": "Building Scalable Systems",
+        "url": "/posts/building-scalable-systems.html",
+        "date": "2026-01-01",
+        "category": "Architecture"
+    },
+    {
+        "title": "Natural Language Processing Basics",
+        "url": "/posts/natural-language-processing-basics.html",
+        "date": "2025-12-28",
+        "category": "AI"
+    },
+    {
+        "title": "Web Security Best Practices",
+        "url": "/posts/web-security-best-practices.html",
+        "date": "2025-12-25",
+        "category": "Security"
+    },
+    {
+        "title": "GraphQL vs REST Comparison",
+        "url": "/posts/graphql-vs-rest-comparison.html",
+        "date": "2025-12-20",
+        "category": "API"
+    },
+    {
+        "title": "Machine Learning Model Deployment",
+        "url": "/posts/machine-learning-model-deployment.html",
+        "date": "2025-12-15",
+        "category": "AI"
+    },
+    {
+        "title": "Progressive Web Apps Guide",
+        "url": "/posts/progressive-web-apps-guide.html",
+        "date": "2025-12-10",
+        "category": "Web"
+    },
+    {
+        "title": "Serverless Architecture Patterns",
+        "url": "/posts/serverless-architecture-patterns.html",
+        "date": "2025-12-05",
+        "category": "Cloud"
+    },
+    {
+        "title": "Functional Programming in JavaScript",
+        "url": "/posts/functional-programming-in-javascript.html",
+        "date": "2025-11-30",
+        "category": "JavaScript"
+    },
+    {
+        "title": "UI/UX Design Principles",
+        "url": "/posts/ui-ux-design-principles.html",
+        "date": "2025-11-25",
+        "category": "Design"
+    },
+    {
+        "title": "Blockchain Technology Explained",
+        "url": "/posts/blockchain-technology-explained.html",
+        "date": "2025-11-20",
+        "category": "Blockchain"
+    },
+    {
+        "title": "Automated Testing Strategies",
+        "url": "/posts/automated-testing-strategies.html",
+        "date": "2025-11-15",
+        "category": "Testing"
+    },
+    {
+        "title": "Cloud Computing Basics",
+        "url": "/posts/cloud-computing-basics.html",
+        "date": "2025-11-10",
+        "category": "Cloud"
+    },
+    {
+        "title": "Data Visualization Techniques",
+        "url": "/posts/data-visualization-techniques.html",
+        "date": "2025-11-05",
+        "category": "Data"
+    },
+    {
+        "title": "Microservices Architecture",
+        "url": "/posts/microservices-architecture.html",
+        "date": "2025-10-30",
+        "category": "Architecture"
+    },
+    {
+        "title": "React Native Mobile Development",
+        "url": "/posts/react-native-mobile-development.html",
+        "date": "2025-10-25",
+        "category": "Mobile"
+    },
+    {
+        "title": "Algorithm Complexity Analysis",
+        "url": "/posts/algorithm-complexity-analysis.html",
+        "date": "2025-10-20",
+        "category": "Algorithms"
+    },
+    {
+        "title": "WebAssembly Introduction",
+        "url": "/posts/webassembly-introduction.html",
+        "date": "2025-10-15",
+        "category": "Web"
+    },
+    {
+        "title": "Machine Learning Ethics",
+        "url": "/posts/machine-learning-ethics.html",
+        "date": "2025-10-10",
+        "category": "AI"
+    },
+    {
+        "title": "Database Sharding Techniques",
+        "url": "/posts/database-sharding-techniques.html",
+        "date": "2025-10-05",
+        "category": "Database"
+    },
+    {
+        "title": "CSS Custom Properties Guide",
+        "url": "/posts/css-custom-properties-guide.html",
+        "date": "2025-09-30",
+        "category": "CSS"
+    },
+    {
+        "title": "API Rate Limiting Strategies",
+        "url": "/posts/api-rate-limiting-strategies.html",
+        "date": "2025-09-25",
+        "category": "API"
+    },
+    {
+        "title": "TensorFlow Tutorial for Beginners",
+        "url": "/posts/tensorflow-tutorial-for-beginners.html",
+        "date": "2025-09-20",
+        "category": "AI"
+    },
+    {
+        "title": "Responsive Images Best Practices",
+        "url": "/posts/responsive-images-best-practices.html",
+        "date": "2025-09-15",
+        "category": "Web"
+    },
+    {
+        "title": "Git Advanced Techniques",
+        "url": "/posts/git-advanced-techniques.html",
+        "date": "2025-09-10",
+        "category": "Git"
+    },
+    {
+        "title": "Web Performance Optimization",
+        "url": "/posts/web-performance-optimization.html",
+        "date": "2025-09-05",
+        "category": "Performance"
+    },
+    {
+        "title": "Linux Command Line Guide",
+        "url": "/posts/linux-command-line-guide.html",
+        "date": "2025-08-30",
+        "category": "Linux"
+    },
+    {
+        "title": "Container Orchestration with Kubernetes",
+        "url": "/posts/container-orchestration-with-kubernetes.html",
+        "date": "2025-08-25",
+        "category": "DevOps"
+    },
+    {
+        "title": "Clean Code Principles",
+        "url": "/posts/clean-code-principles.html",
+        "date": "2025-08-20",
+        "category": "Best Practices"
+    },
+    {
+        "title": "WebSocket Real-time Communication",
+        "url": "/posts/websocket-real-time-communication.html",
+        "date": "2025-08-15",
+        "category": "Web"
+    },
+    {
+        "title": "Machine Learning in Production",
+        "url": "/posts/machine-learning-in-production.html",
+        "date": "2025-08-10",
+        "category": "AI"
+    },
+    {
+        "title": "Accessibility in Web Development",
+        "url": "/posts/accessibility-in-web-development.html",
+        "date": "2025-08-05",
+        "category": "Accessibility"
+    },
+    {
+        "title": "Database Indexing Strategies",
+        "url": "/posts/database-indexing-strategies.html",
+        "date": "2025-07-30",
+        "category": "Database"
+    },
+    {
+        "title": "Animation with CSS and JavaScript",
+        "url": "/posts/animation-with-css-and-javascript.html",
+        "date": "2025-07-25",
+        "category": "Animation"
+    },
+    {
+        "title": "Building CLI Tools with Node.js",
+        "url": "/posts/building-cli-tools-with-nodejs.html",
+        "date": "2025-07-20",
+        "category": "Node.js"
+    },
+    {
+        "title": "AR/VR Development Introduction",
+        "url": "/posts/ar-vr-development-introduction.html",
+        "date": "2025-07-15",
+        "category": "AR/VR"
+    }
+]
