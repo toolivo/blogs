@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Archive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-light: #3b82f6;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-700: #374151;
+            --gray-900: #111827;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .post-card {
+            transition: all 0.2s ease;
+            border-left: 3px solid transparent;
+        }
+        
+        .post-card:hover {
+            transform: translateX(4px);
+            border-left-color: var(--primary);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        
+        .category-badge {
+            transition: all 0.2s ease;
+        }
+        
+        .category-badge:hover {
+            transform: scale(1.05);
+        }
+        
+        .page-btn {
+            transition: all 0.2s ease;
+        }
+        
+        .page-btn:hover:not(:disabled) {
+            transform: translateY(-1px);
+        }
+        
+        .active-page {
+            background-color: var(--primary);
+            color: white;
+            font-weight: 600;
+        }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Focus styles for accessibility */
+        :focus-visible {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+        
+        /* Loading animation */
+        .loading-spinner {
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-6xl">
+        <!-- Header -->
+        <header class="mb-10">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Blog Archive</h1>
+            <p class="text-gray-600">Browse all posts sorted by date</p>
+            
+            <!-- Search and Stats -->
+            <div class="mt-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div class="relative flex-1 max-w-xl">
+                    <div class="relative">
+                        <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                        <input 
+                            type="text" 
+                            id="searchInput" 
+                            placeholder="Search posts by title or category..." 
+                            class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+                            aria-label="Search posts"
+                        >
+                        <button 
+                            id="clearSearch" 
+                            class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 hidden"
+                            aria-label="Clear search"
+                        >
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="flex items-center gap-4">
+                    <div class="text-sm text-gray-600">
+                        <span id="postCount">0</span> posts total
+                    </div>
+                    <div class="hidden md:block text-gray-400">|</div>
+                    <div class="text-sm text-gray-600">
+                        <span id="currentPageInfo">Page 1</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Loading State -->
+            <div id="loading" class="flex flex-col items-center justify-center py-20">
+                <div class="w-12 h-12 border-4 border-blue-200 border-t-blue-600 rounded-full loading-spinner mb-4"></div>
+                <p class="text-gray-600">Loading posts...</p>
+            </div>
+
+            <!-- Posts Container -->
+            <div id="postsContainer" class="hidden fade-in">
+                <!-- Posts will be loaded here -->
+            </div>
+
+            <!-- No Results -->
+            <div id="noResults" class="hidden text-center py-20">
+                <div class="text-gray-400 mb-4">
+                    <i class="fas fa-inbox text-5xl"></i>
+                </div>
+                <h3 class="text-xl font-medium text-gray-700 mb-2">No posts found</h3>
+                <p class="text-gray-500">Try adjusting your search terms</p>
+            </div>
+
+            <!-- Pagination -->
+            <div id="pagination" class="hidden mt-12">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                    <div class="text-sm text-gray-600">
+                        Showing <span id="rangeStart">1</span>-<span id="rangeEnd">30</span> of <span id="totalPosts">0</span> posts
+                    </div>
+                    
+                    <div class="flex items-center gap-2">
+                        <button 
+                            id="prevPage" 
+                            class="page-btn px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                            aria-label="Previous page"
+                        >
+                            <i class="fas fa-chevron-left mr-2"></i> Previous
+                        </button>
+                        
+                        <div class="flex items-center gap-1" id="pageNumbers">
+                            <!-- Page numbers will be generated here -->
+                        </div>
+                        
+                        <button 
+                            id="nextPage" 
+                            class="page-btn px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                            aria-label="Next page"
+                        >
+                            Next <i class="fas fa-chevron-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-16 pt-8 border-t border-gray-200 text-center text-gray-500 text-sm">
+            <p>Blog Archive • All posts loaded client-side • Built with plain HTML, CSS & JavaScript</p>
+        </footer>
+    </div>
+
+    <script>
+        // Blog Archive Application
+        class BlogArchive {
+            constructor() {
+                this.posts = [];
+                this.filteredPosts = [];
+                this.currentPage = 1;
+                this.postsPerPage = 30;
+                this.searchTerm = '';
+                
+                // DOM Elements
+                this.elements = {
+                    loading: document.getElementById('loading'),
+                    postsContainer: document.getElementById('postsContainer'),
+                    noResults: document.getElementById('noResults'),
+                    pagination: document.getElementById('pagination'),
+                    searchInput: document.getElementById('searchInput'),
+                    clearSearch: document.getElementById('clearSearch'),
+                    prevPage: document.getElementById('prevPage'),
+                    nextPage: document.getElementById('nextPage'),
+                    pageNumbers: document.getElementById('pageNumbers'),
+                    postCount: document.getElementById('postCount'),
+                    currentPageInfo: document.getElementById('currentPageInfo'),
+                    rangeStart: document.getElementById('rangeStart'),
+                    rangeEnd: document.getElementById('rangeEnd'),
+                    totalPosts: document.getElementById('totalPosts')
+                };
+                
+                // Initialize
+                this.init();
+            }
+            
+            init() {
+                this.loadPosts();
+                this.setupEventListeners();
+            }
+            
+            async loadPosts() {
+                try {
+                    // Load posts from external JSON file
+                    const response = await fetch('posts.json');
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    
+                    this.posts = await response.json();
+                    
+                    // Sort posts by date (newest first)
+                    this.posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+                    
+                    // Hide loading, show content
+                    this.elements.loading.classList.add('hidden');
+                    this.updateDisplay();
+                    
+                } catch (error) {
+                    console.error('Error loading posts:', error);
+                    this.elements.loading.innerHTML = `
+                        <div class="text-center py-20">
+                            <div class="text-red-500 mb-4">
+                                <i class="fas fa-exclamation-triangle text-4xl"></i>
+                            </div>
+                            <h3 class="text-xl font-medium text-gray-700 mb-2">Error loading posts</h3>
+                            <p class="text-gray-500">Failed to load posts.json file</p>
+                            <p class="text-gray-400 text-sm mt-2">${error.message}</p>
+                        </div>
+                    `;
+                }
+            }
+            
+            setupEventListeners() {
+                // Search input with debounce
+                let searchTimeout;
+                this.elements.searchInput.addEventListener('input', (e) => {
+                    clearTimeout(searchTimeout);
+                    searchTimeout = setTimeout(() => {
+                        this.searchTerm = e.target.value.trim().toLowerCase();
+                        this.currentPage = 1;
+                        this.updateDisplay();
+                        this.updateClearButton();
+                    }, 300);
+                });
+                
+                // Clear search button
+                this.elements.clearSearch.addEventListener('click', () => {
+                    this.elements.searchInput.value = '';
+                    this.searchTerm = '';
+                    this.currentPage = 1;
+                    this.updateDisplay();
+                    this.updateClearButton();
+                    this.elements.searchInput.focus();
+                });
+                
+                // Pagination buttons
+                this.elements.prevPage.addEventListener('click', () => {
+                    if (this.currentPage > 1) {
+                        this.currentPage--;
+                        this.updateDisplay();
+                        this.scrollToTop();
+                    }
+                });
+                
+                this.elements.nextPage.addEventListener('click', () => {
+                    const totalPages = Math.ceil(this.filteredPosts.length / this.postsPerPage);
+                    if (this.currentPage < totalPages) {
+                        this.currentPage++;
+                        this.updateDisplay();
+                        this.scrollToTop();
+                    }
+                });
+                
+                // Keyboard shortcuts
+                document.addEventListener('keydown', (e) => {
+                    // Ctrl+F or Cmd+F to focus search
+                    if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+                        e.preventDefault();
+                        this.elements.searchInput.focus();
+                        this.elements.searchInput.select();
+                    }
+                    
+                    // Escape to clear search
+                    if (e.key === 'Escape' && this.elements.searchInput.value) {
+                        this.elements.searchInput.value = '';
+                        this.searchTerm = '';
+                        this.currentPage = 1;
+                        this.updateDisplay();
+                        this.updateClearButton();
+                    }
+                });
+            }
+            
+            updateClearButton() {
+                if (this.elements.searchInput.value) {
+                    this.elements.clearSearch.classList.remove('hidden');
+                } else {
+                    this.elements.clearSearch.classList.add('hidden');
+                }
+            }
+            
+            filterPosts() {
+                if (!this.searchTerm) {
+                    this.filteredPosts = [...this.posts];
+                    return;
+                }
+                
+                this.filteredPosts = this.posts.filter(post => {
+                    const titleMatch = post.title.toLowerCase().includes(this.searchTerm);
+                    const categoryMatch = post.category.toLowerCase().includes(this.searchTerm);
+                    return titleMatch || categoryMatch;
+                });
+            }
+            
+            getCurrentPagePosts() {
+                const startIndex = (this.currentPage - 1) * this.postsPerPage;
+                const endIndex = startIndex + this.postsPerPage;
+                return this.filteredPosts.slice(startIndex, endIndex);
+            }
+            
+            formatDate(dateString) {
+                const date = new Date(dateString);
+                return date.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+            }
+            
+            getCategoryColor(category) {
+                // Assign colors based on category
+                const colorMap = {
+                    'AI': 'bg-blue-100 text-blue-800',
+                    'Web': 'bg-green-100 text-green-800',
+                    'JavaScript': 'bg-yellow-100 text-yellow-800',
+                    'React': 'bg-cyan-100 text-cyan-800',
+                    'CSS': 'bg-purple-100 text-purple-800',
+                    'Backend': 'bg-red-100 text-red-800',
+                    'Database': 'bg-orange-100 text-orange-800',
+                    'Design': 'bg-pink-100 text-pink-800',
+                    'Python': 'bg-indigo-100 text-indigo-800',
+                    'DevOps': 'bg-teal-100 text-teal-800',
+                    'TypeScript': 'bg-blue-100 text-blue-800',
+                    'Quantum': 'bg-purple-100 text-purple-800',
+                    'Security': 'bg-red-100 text-red-800',
+                    'API': 'bg-green-100 text-green-800',
+                    'Cloud': 'bg-indigo-100 text-indigo-800',
+                    'Data': 'bg-teal-100 text-teal-800',
+                    'Architecture': 'bg-gray-100 text-gray-800',
+                    'Mobile': 'bg-pink-100 text-pink-800',
+                    'Algorithms': 'bg-orange-100 text-orange-800',
+                    'Git': 'bg-gray-100 text-gray-800',
+                    'Performance': 'bg-yellow-100 text-yellow-800',
+                    'Linux': 'bg-gray-100 text-gray-800',
+                    'Best Practices': 'bg-green-100 text-green-800',
+                    'Node.js': 'bg-green-100 text-green-800',
+                    'AR/VR': 'bg-purple-100 text-purple-800',
+                    'Animation': 'bg-pink-100 text-pink-800',
+                    'Accessibility': 'bg-blue-100 text-blue-800',
+                    'Vue': 'bg-green-100 text-green-800',
+                    'Testing': 'bg-red-100 text-red-800',
+                    'Blockchain': 'bg-gray-100 text-gray-800'
+                };
+                
+                return colorMap[category] || 'bg-gray-100 text-gray-800';
+            }
+            
+            renderPosts() {
+                const posts = this.getCurrentPagePosts();
+                const container = this.elements.postsContainer;
+                
+                if (posts.length === 0) {
+                    container.classList.add('hidden');
+                    this.elements.noResults.classList.remove('hidden');
+                    return;
+                }
+                
+                container.innerHTML = '';
+                container.classList.remove('hidden');
+                this.elements.noResults.classList.add('hidden');
+                
+                posts.forEach(post => {
+                    const postElement = document.createElement('article');
+                    postElement.className = 'post-card bg-white rounded-lg p-6 mb-4 shadow-sm border border-gray-200 fade-in';
+                    
+                    const categoryColor = this.getCategoryColor(post.category);
+                    
+                    postElement.innerHTML = `
+                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                            <div class="flex-1">
+                                <div class="flex items-center gap-3 mb-2">
+                                    <span class="category-badge ${categoryColor} text-xs font-medium px-3 py-1 rounded-full">
+                                        ${post.category}
+                                    </span>
+                                    <time class="text-sm text-gray-500" datetime="${post.date}">
+                                        ${this.formatDate(post.date)}
+                                    </time>
+                                </div>
+                                <h2 class="text-xl font-semibold text-gray-900 mb-2 hover:text-blue-600 transition-colors">
+                                    <a href="${post.url}" class="hover:underline">${post.title}</a>
+                                </h2>
+                            </div>
+                            <div>
+                                <a href="${post.url}" 
+                                   class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
+                                   aria-label="Read ${post.title}">
+                                    Read Article
+                                    <i class="fas fa-arrow-right ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    `;
+                    
+                    container.appendChild(postElement);
+                });
+            }
+            
+            updatePagination() {
+                const totalPosts = this.filteredPosts.length;
+                const totalPages = Math.ceil(totalPosts / this.postsPerPage);
+                
+                // Update pagination info
+                this.elements.postCount.textContent = totalPosts;
+                this.elements.currentPageInfo.textContent = `Page ${this.currentPage} of ${totalPages}`;
+                this.elements.totalPosts.textContent = totalPosts;
+                
+                const startIndex = (this.currentPage - 1) * this.postsPerPage + 1;
+                const endIndex = Math.min(startIndex + this.postsPerPage - 1, totalPosts);
+                
+                this.elements.rangeStart.textContent = startIndex;
+                this.elements.rangeEnd.textContent = endIndex;
+                
+                // Show/hide pagination
+                if (totalPosts <= this.postsPerPage && !this.searchTerm) {
+                    this.elements.pagination.classList.add('hidden');
+                    return;
+                }
+                
+                this.elements.pagination.classList.remove('hidden');
+                
+                // Update button states
+                this.elements.prevPage.disabled = this.currentPage === 1;
+                this.elements.nextPage.disabled = this.currentPage === totalPages;
+                
+                // Generate page numbers
+                this.elements.pageNumbers.innerHTML = '';
+                
+                // Show first page, current page, and last page with ellipsis if needed
+                const maxVisiblePages = 5;
+                let startPage = Math.max(1, this.currentPage - Math.floor(maxVisiblePages / 2));
+                let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+                
+                // Adjust if we're at the end
+                if (endPage - startPage + 1 < maxVisiblePages) {
+                    startPage = Math.max(1, endPage - maxVisiblePages + 1);
+                }
+                
+                // First page
+                if (startPage > 1) {
+                    this.createPageButton(1);
+                    if (startPage > 2) {
+                        this.elements.pageNumbers.innerHTML += '<span class="px-2 text-gray-400">...</span>';
+                    }
+                }
+                
+                // Page numbers
+                for (let i = startPage; i <= endPage; i++) {
+                    this.createPageButton(i);
+                }
+                
+                // Last page
+                if (endPage < totalPages) {
+                    if (endPage < totalPages - 1) {
+                        this.elements.pageNumbers.innerHTML += '<span class="px-2 text-gray-400">...</span>';
+                    }
+                    this.createPageButton(totalPages);
+                }
+            }
+            
+            createPageButton(pageNumber) {
+                const button = document.createElement('button');
+                button.className = `page-btn w-10 h-10 rounded-lg ${pageNumber === this.currentPage ? 'active-page' : 'border border-gray-300 hover:bg-gray-50'}`;
+                button.textContent = pageNumber;
+                button.setAttribute('aria-label', `Go to page ${pageNumber}`);
+                
+                button.addEventListener('click', () => {
+                    this.currentPage = pageNumber;
+                    this.updateDisplay();
+                    this.scrollToTop();
+                });
+                
+                this.elements.pageNumbers.appendChild(button);
+            }
+            
+            scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+            
+            updateDisplay() {
+                this.filterPosts();
+                this.renderPosts();
+                this.updatePagination();
+                this.updateClearButton();
+            }
+        }
+        
+        // Initialize the application when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new BlogArchive();
+        });
+    </script>
+</body>
+</html>
