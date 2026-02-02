@@ -1,0 +1,1122 @@
+[
+    {
+        "title": "GPT-5 Launch: OpenAI's Path to Artificial General Intelligence",
+        "excerpt": "OpenAI introduces GPT-5 featuring unprecedented reasoning abilities and multi-modal understanding.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "6 min",
+        "timestamp": "2025-12-15T10:30:22",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/gpt-5-launch-openai-agi-path"
+    },
+    {
+        "title": "Europa's Ocean Contains Complex Organic Compounds",
+        "excerpt": "NASA's latest findings suggest Europa's subsurface ocean hosts molecules essential for biological processes.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "8 min",
+        "timestamp": "2025-02-15T11:45:30",
+        "image": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/europa-ocean-organic-compounds-nasa"
+    },
+    {
+        "title": "IBM's Quantum Breakthrough: 1000-Qubit Processor Unveiled",
+        "excerpt": "IBM achieves quantum supremacy with processor solving problems beyond classical computing limits.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "10 min",
+        "timestamp": "2025-03-18T14:20:15",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ibm-quantum-breakthrough-1000-qubit"
+    },
+    {
+        "title": "Massive Data Breach Exposes 30 Million Accounts",
+        "excerpt": "Critical zero-day vulnerability leads to one of the largest cybersecurity incidents this year.",
+        "category": "cyber",
+        "tag": "Cyber World",
+        "readTime": "5 min",
+        "timestamp": "2025-04-25T13:15:40",
+        "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/massive-data-breach-30-million-accounts"
+    },
+    {
+        "title": "Humanoid Robots Transform Factory Production Lines",
+        "excerpt": "Advanced humanoid robots from leading tech companies automate complex manufacturing tasks.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "7 min",
+        "timestamp": "2025-05-08T09:45:25",
+        "image": "https://images.unsplash.com/photo-1485827404703-489689fd1ca8?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/humanoid-robots-transform-factories"
+    },
+    {
+        "title": "Fusion Energy Record: 30-Second Sustained Reaction",
+        "excerpt": "ITER collaboration reaches new milestone bringing practical fusion energy closer to reality.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "9 min",
+        "timestamp": "2025-06-20T16:30:45",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/fusion-energy-record-30-seconds"
+    },
+    {
+        "title": "Apple's AR Glasses Begin Production Phase",
+        "excerpt": "Apple moves forward with augmented reality glasses featuring spatial computing capabilities.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "6 min",
+        "timestamp": "2025-07-30T12:15:18",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/apple-ar-glasses-production-begins"
+    },
+    {
+        "title": "AI Accurately Forecasts Extreme Weather Patterns",
+        "excerpt": "Machine learning models predict hurricanes and floods with exceptional accuracy weeks ahead.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "8 min",
+        "timestamp": "2025-08-10T08:45:33",
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-forecasts-extreme-weather-patterns"
+    },
+    {
+        "title": "CRISPR 3.0 Successfully Treats Genetic Disorders",
+        "excerpt": "Advanced gene editing technology shows 99.7% accuracy in treating hereditary diseases.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "8 min",
+        "timestamp": "2025-09-18T19:22:10",
+        "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/crispr-3-0-treats-genetic-disorders"
+    },
+    {
+        "title": "Google Gemini Ultra Sets New AI Benchmark",
+        "excerpt": "Google's latest model outperforms competitors in comprehensive reasoning assessments.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "7 min",
+        "timestamp": "2025-10-08T14:45:50",
+        "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/google-gemini-ultra-benchmark-record"
+    },
+    {
+        "title": "Global Hospital Networks Hit by Ransomware Attack",
+        "excerpt": "Coordinated cyberattack disrupts healthcare systems worldwide with multimillion-dollar demands.",
+        "category": "cyber",
+        "tag": "Cyber World",
+        "readTime": "5 min",
+        "timestamp": "2025-11-15T06:30:15",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/global-hospital-ransomware-attack"
+    },
+    {
+        "title": "Space Hotel Announces 2026 Commercial Operations",
+        "excerpt": "First luxury accommodation in orbit prepares for tourist launches next year.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "9 min",
+        "timestamp": "2025-12-22T10:00:00",
+        "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/space-hotel-2026-commercial-operations"
+    },
+    {
+        "title": "Samsung Galaxy Z Fold 6: Comprehensive Review",
+        "excerpt": "In-depth analysis of Samsung's latest foldable smartphone and its productivity features.",
+        "category": "explanations",
+        "tag": "Explanations",
+        "readTime": "10 min",
+        "timestamp": "2026-01-12T11:15:42",
+        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/samsung-galaxy-z-fold-6-comprehensive-review"
+    },
+    {
+        "title": "Webb Telescope Discovers Water on Distant Exoplanet",
+        "excerpt": "K2-18b analysis reveals atmospheric water vapor and potential habitable conditions.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "6 min",
+        "timestamp": "2026-01-22T15:30:28",
+        "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/webb-telescope-water-exoplanet-discovery"
+    },
+    {
+        "title": "AI System Detects Cancer at Early Stages",
+        "excerpt": "Deep learning algorithm identifies cancerous cells months before traditional diagnosis methods.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "6 min",
+        "timestamp": "2025-02-05T07:30:18",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-system-detects-early-cancer"
+    },
+    {
+        "title": "Room-Temperature Superconductor Verification",
+        "excerpt": "MIT researchers confirm superconductivity at ambient temperatures using novel materials.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "9 min",
+        "timestamp": "2025-02-08T10:45:22",
+        "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/room-temperature-superconductor-verification"
+    },
+    {
+        "title": "Chrome Vulnerability Affects Billions of Users",
+        "excerpt": "Critical security flaw discovered in Chrome browser requiring immediate patching.",
+        "category": "cyber",
+        "tag": "Cyber World",
+        "readTime": "4 min",
+        "timestamp": "2026-01-28T03:45:30",
+        "image": "https://images.unsplash.com/photo-1526378553286-757e3ac7b688?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/chrome-vulnerability-billions-affected"
+    },
+    {
+        "title": "Neuralink Enables Thought-Controlled Computing",
+        "excerpt": "Brain-computer interface allows paralyzed individuals to operate devices through neural signals.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "8 min",
+        "timestamp": "2025-08-28T09:15:40",
+        "image": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/neuralink-thought-controlled-computing"
+    },
+    {
+        "title": "Microsoft Copilot Pro: Value Assessment",
+        "excerpt": "Detailed review of Microsoft's premium AI assistant across Office applications.",
+        "category": "explanations",
+        "tag": "Explanations",
+        "readTime": "7 min",
+        "timestamp": "2025-05-20T13:40:25",
+        "image": "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/microsoft-copilot-pro-value-assessment"
+    },
+    {
+        "title": "Flying Cars Receive Regulatory Approval",
+        "excerpt": "Electric vertical takeoff vehicles certified for urban transportation networks.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "6 min",
+        "timestamp": "2026-02-03T08:30:00",
+        "image": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/flying-cars-regulatory-approval"
+    },
+    {
+        "title": "Meta Announces Next-Generation AI Assistant",
+        "excerpt": "Meta's new AI system integrates across all platforms with enhanced conversational abilities.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "5 min",
+        "timestamp": "2025-11-02T16:20:33",
+        "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/meta-next-generation-ai-assistant"
+    },
+    {
+        "title": "Mars Rover Discovers Evidence of Ancient Rivers",
+        "excerpt": "Perseverance rover findings suggest flowing water existed on Mars billions of years ago.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "7 min",
+        "timestamp": "2025-04-14T12:45:18",
+        "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/mars-rover-ancient-rivers-evidence"
+    },
+    {
+        "title": "Intel Unveils Revolutionary 3D Chip Architecture",
+        "excerpt": "New processor design stacks computing layers for unprecedented performance gains.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "8 min",
+        "timestamp": "2025-06-05T14:30:45",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/intel-3d-chip-architecture-revolution"
+    },
+    {
+        "title": "Global Cybersecurity Standards Updated",
+        "excerpt": "International consortium releases new security protocols for critical infrastructure.",
+        "category": "cyber",
+        "tag": "Cyber World",
+        "readTime": "6 min",
+        "timestamp": "2025-09-30T10:15:22",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/global-cybersecurity-standards-updated"
+    },
+    {
+        "title": "Robotic Surgeons Perform Complex Procedures",
+        "excerpt": "AI-guided surgical systems achieve precision beyond human capabilities in clinical trials.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "9 min",
+        "timestamp": "2025-07-12T08:45:30",
+        "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/robotic-surgeons-complex-procedures"
+    },
+    {
+        "title": "Renewable Energy Surpasses Fossil Fuels Globally",
+        "excerpt": "Solar and wind now generate majority of world's electricity for first time in history.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "7 min",
+        "timestamp": "2025-10-25T11:30:15",
+        "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/renewable-energy-surpasses-fossil-fuels"
+    },
+    {
+        "title": "Smartphone with Holographic Display Launched",
+        "excerpt": "New device projects 3D holograms without special glasses for immersive interactions.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "6 min",
+        "timestamp": "2025-12-03T13:20:40",
+        "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/smartphone-holographic-display-launched"
+    },
+    {
+        "title": "AI Generates Personalized Learning Curriculums",
+        "excerpt": "Adaptive education systems create custom learning paths for individual students.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "5 min",
+        "timestamp": "2025-03-25T09:15:22",
+        "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-personalized-learning-curriculums"
+    },
+    {
+        "title": "Gene Therapy Reverses Aging in Animal Studies",
+        "excerpt": "Experimental treatment shows potential to reverse cellular aging processes in mammals.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "8 min",
+        "timestamp": "2025-08-18T15:45:33",
+        "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/gene-therapy-reverses-aging-animal-studies"
+    },
+    {
+        "title": "Amazon Launches Advanced Home Robotics System",
+        "excerpt": "Multi-functional home assistant robots handle domestic tasks with AI coordination.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "7 min",
+        "timestamp": "2025-11-28T10:30:18",
+        "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/amazon-advanced-home-robotics-system"
+    },
+    {
+        "title": "Quantum Internet Tested Successfully",
+        "excerpt": "First secure quantum communication network established between major cities.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "9 min",
+        "timestamp": "2025-05-16T16:20:45",
+        "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/quantum-internet-tested-successfully"
+    },
+    {
+        "title": "Deepfake Detection AI Achieves 99% Accuracy",
+        "excerpt": "New algorithm identifies manipulated media with unprecedented precision.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "6 min",
+        "timestamp": "2025-10-12T14:15:30",
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/deepfake-detection-ai-99-accuracy"
+    },
+    {
+        "title": "Ocean Cleanup Project Removes Million Tons of Plastic",
+        "excerpt": "Massive scale environmental initiative successfully cleans major ocean garbage patches.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "7 min",
+        "timestamp": "2025-07-08T11:45:22",
+        "image": "https://images.unsplash.com/photo-1562564055-71e1d37d9c46?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ocean-cleanup-million-tons-plastic"
+    },
+    {
+        "title": "Autonomous Delivery Drones Approved Nationwide",
+        "excerpt": "Regulatory approval allows drone delivery services across urban and rural areas.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "5 min",
+        "timestamp": "2025-09-05T13:30:40",
+        "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/autonomous-delivery-drones-approved"
+    },
+    {
+        "title": "Apple Vision Pro 2: Next Generation Spatial Computing",
+        "excerpt": "Detailed review of Apple's latest mixed reality headset and its enterprise applications.",
+        "category": "explanations",
+        "tag": "Explanations",
+        "readTime": "10 min",
+        "timestamp": "2025-12-10T15:20:18",
+        "image": "https://images.unsplash.com/photo-1542751110-97427bbecf20?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/apple-vision-pro-2-review"
+    },
+    {
+        "title": "Climate Modeling AI Predicts Regional Impacts",
+        "excerpt": "Advanced algorithms forecast climate change effects at local level with high resolution.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "8 min",
+        "timestamp": "2025-04-30T10:45:33",
+        "image": "https://images.unsplash.com/photo-1569336415962-a1bd8216b785?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/climate-modeling-ai-regional-impacts"
+    },
+    {
+        "title": "Wireless Power Transmission Achieved Over Distance",
+        "excerpt": "Breakthrough enables efficient wireless energy transfer across significant distances.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "7 min",
+        "timestamp": "2025-06-22T14:15:22",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/wireless-power-transmission-distance"
+    },
+    {
+        "title": "Blockchain Voting System Tested in National Election",
+        "excerpt": "Secure digital voting platform demonstrates fraud-resistant election capabilities.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "6 min",
+        "timestamp": "2025-08-14T09:30:45",
+        "image": "https://images.unsplash.com/photo-1516245834210-8e0b8b86d3b8?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/blockchain-voting-system-tested"
+    },
+    {
+        "title": "Neural Network Discovers New Antibiotic Compounds",
+        "excerpt": "AI identifies novel antibiotic molecules effective against drug-resistant bacteria.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "7 min",
+        "timestamp": "2025-11-20T16:45:18",
+        "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/neural-network-discovers-antibiotics"
+    },
+    {
+        "title": "Vertical Farming Revolutionizes Urban Agriculture",
+        "excerpt": "Multi-story automated farms produce food locally with minimal environmental impact.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "6 min",
+        "timestamp": "2025-10-08T11:20:33",
+        "image": "https://images.unsplash.com/photo-1592841200221-7ef6f5e7d8d9?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/vertical-farming-revolutionizes-agriculture"
+    },
+    {
+        "title": "Biodegradable Electronics Developed",
+        "excerpt": "Electronic components that naturally decompose after use reduce e-waste significantly.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "8 min",
+        "timestamp": "2025-07-25T13:15:40",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/biodegradable-electronics-developed"
+    },
+    {
+        "title": "Autonomous Ships Begin Commercial Operations",
+        "excerpt": "Self-navigating cargo vessels complete first transoceanic journeys without crew.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "7 min",
+        "timestamp": "2025-09-18T08:45:22",
+        "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/autonomous-ships-commercial-operations"
+    },
+    {
+        "title": "Brain-Computer Interface for Memory Enhancement",
+        "excerpt": "Non-invasive device improves memory recall and learning capabilities in clinical trials.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "9 min",
+        "timestamp": "2025-12-05T15:30:18",
+        "image": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/brain-computer-interface-memory-enhancement"
+    },
+    {
+        "title": "AI-Powered Traffic Management Reduces Congestion",
+        "excerpt": "Smart city systems optimize traffic flow, decreasing commute times by 40%.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "6 min",
+        "timestamp": "2025-05-28T10:15:45",
+        "image": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-traffic-management-reduces-congestion"
+    },
+    {
+        "title": "3D Printed Organs Successfully Transplanted",
+        "excerpt": "Bioprinted tissues and organs show long-term viability in human recipients.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "10 min",
+        "timestamp": "2025-08-30T14:20:33",
+        "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/3d-printed-organs-successfully-transplanted"
+    },
+    {
+        "title": "Satellite Constellation Provides Global Internet",
+        "excerpt": "Thousands of low-orbit satellites deliver high-speed internet to remote regions.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "7 min",
+        "timestamp": "2025-11-12T12:45:22",
+        "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/satellite-constellation-global-internet"
+    },
+    {
+        "title": "AI Composes Original Music Albums",
+        "excerpt": "Artificial intelligence creates complete musical works across various genres.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "5 min",
+        "timestamp": "2025-03-15T09:30:40",
+        "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-composes-original-music-albums"
+    },
+    {
+        "title": "Smart Contact Lenses Monitor Health Metrics",
+        "excerpt": "Wearable lenses track glucose, blood pressure, and other vital signs continuously.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "6 min",
+        "timestamp": "2025-10-22T16:15:18",
+        "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/smart-contact-lenses-monitor-health"
+    },
+    {
+        "title": "Quantum Sensors Revolutionize Medical Imaging",
+        "excerpt": "Advanced quantum devices produce unprecedented resolution in biological imaging.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "8 min",
+        "timestamp": "2025-07-02T11:30:45",
+        "image": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/quantum-sensors-revolutionize-medical-imaging"
+    },
+    {
+        "title": "Autonomous Construction Robots Build Structures",
+        "excerpt": "Robotic systems assemble buildings and infrastructure without human intervention.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "7 min",
+        "timestamp": "2025-09-25T13:45:22",
+        "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/autonomous-construction-robots-build"
+    },
+    {
+        "title": "NVIDIA's Next-Gen AI Chips Break Performance Records",
+        "excerpt": "Latest GPU architecture delivers unprecedented computing power for AI workloads.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "6 min",
+        "timestamp": "2025-12-18T14:20:33",
+        "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/nvidia-next-gen-ai-chips-records"
+    },
+    {
+        "title": "AI Translates Ancient Languages Instantly",
+        "excerpt": "Machine learning deciphers previously untranslatable historical texts and inscriptions.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "7 min",
+        "timestamp": "2025-04-08T10:15:40",
+        "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-translates-ancient-languages"
+    },
+    {
+        "title": "Lab-Grown Meat Approved for Commercial Sale",
+        "excerpt": "Cultivated meat products receive regulatory approval for consumer markets.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "6 min",
+        "timestamp": "2025-06-30T12:30:18",
+        "image": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/lab-grown-meat-commercial-approval"
+    },
+    {
+        "title": "Smart Highways Generate Solar Power",
+        "excerpt": "Road surfaces with integrated solar panels produce renewable energy while supporting transportation.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "5 min",
+        "timestamp": "2025-08-20T15:45:22",
+        "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/smart-highways-generate-solar-power"
+    },
+    {
+        "title": "Quantum Computing Cloud Service Launched",
+        "excerpt": "Major cloud provider offers quantum computing resources via subscription model.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "7 min",
+        "timestamp": "2025-11-05T09:30:45",
+        "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/quantum-computing-cloud-service"
+    },
+    {
+        "title": "AI Predicts Stock Market Movements with High Accuracy",
+        "excerpt": "Advanced algorithms forecast financial market trends outperforming human analysts.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "6 min",
+        "timestamp": "2025-05-10T14:15:33",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-predicts-stock-market-movements"
+    },
+    {
+        "title": "Atmospheric Water Generation Technology Advances",
+        "excerpt": "Devices extract drinking water from air humidity in arid regions efficiently.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "7 min",
+        "timestamp": "2025-07-28T11:20:40",
+        "image": "https://images.unsplash.com/photo-1569336415962-a1bd8216b785?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/atmospheric-water-generation-advances"
+    },
+    {
+        "title": "Personal AI Assistants Become Mainstream",
+        "excerpt": "Advanced AI companions manage schedules, communications, and daily tasks autonomously.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "6 min",
+        "timestamp": "2025-10-15T16:30:18",
+        "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/personal-ai-assistants-mainstream"
+    },
+    {
+        "title": "Tesla Model 3 2026: Complete Review",
+        "excerpt": "Comprehensive analysis of Tesla's latest electric vehicle updates and improvements.",
+        "category": "explanations",
+        "tag": "Explanations",
+        "readTime": "9 min",
+        "timestamp": "2026-01-25T13:45:22",
+        "image": "https://images.unsplash.com/photo-1536700503339-1e4b06520771?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/tesla-model-3-2026-review"
+    },
+    {
+        "title": "AI Designs Novel Materials for Sustainable Tech",
+        "excerpt": "Machine learning algorithms create new materials with specific environmental properties.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "8 min",
+        "timestamp": "2025-03-30T10:10:33",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-designs-novel-materials"
+    },
+    {
+        "title": "Carbon Capture Technology Reaches Commercial Scale",
+        "excerpt": "Large-scale systems remove significant amounts of CO2 from atmosphere economically.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "7 min",
+        "timestamp": "2025-06-12T14:25:40",
+        "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/carbon-capture-technology-commercial-scale"
+    },
+    {
+        "title": "Edge Computing Revolutionizes IoT Devices",
+        "excerpt": "Processing at device level reduces latency and improves Internet of Things performance.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "6 min",
+        "timestamp": "2025-08-08T09:40:22",
+        "image": "https://images.unsplash.com/photo-1516245834210-8e0b8b86d3b8?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/edge-computing-revolutionizes-iot"
+    },
+    {
+        "title": "AI Optimizes Renewable Energy Distribution",
+        "excerpt": "Smart grids balance renewable energy production and consumption efficiently.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "7 min",
+        "timestamp": "2025-11-25T15:15:33",
+        "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-optimizes-renewable-energy-distribution"
+    },
+    {
+        "title": "Underwater Cities Concept Moves Forward",
+        "excerpt": "Engineering plans for sustainable human habitats beneath ocean surface advance.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "8 min",
+        "timestamp": "2025-09-14T12:30:45",
+        "image": "https://images.unsplash.com/photo-1562564055-71e1d37d9c46?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/underwater-cities-concept-advances"
+    },
+    {
+        "title": "Neuromorphic Chips Mimic Brain Architecture",
+        "excerpt": "Processors designed like biological brains achieve unprecedented efficiency in AI tasks.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "9 min",
+        "timestamp": "2025-12-08T11:45:22",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/neuromorphic-chips-mimic-brain"
+    },
+    {
+        "title": "AI Detects Archaeological Sites from Satellite Imagery",
+        "excerpt": "Algorithm identifies potential archaeological locations invisible to human analysis.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "6 min",
+        "timestamp": "2025-04-18T13:20:33",
+        "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-detects-archaeological-sites"
+    },
+    {
+        "title": "Artificial Photosynthesis Creates Clean Fuel",
+        "excerpt": "System mimics plant photosynthesis to produce hydrogen fuel from sunlight and water.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "8 min",
+        "timestamp": "2025-07-05T10:35:40",
+        "image": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/artificial-photosynthesis-clean-fuel"
+    },
+    {
+        "title": "Smart Clothing Monitors Athletic Performance",
+        "excerpt": "Wearable fabrics track biometric data and provide real-time coaching feedback.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "5 min",
+        "timestamp": "2025-10-28T14:50:22",
+        "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/smart-clothing-monitors-athletic-performance"
+    },
+    {
+        "title": "6G Network Testing Begins Worldwide",
+        "excerpt": "Next-generation wireless technology promises revolutionary speed and connectivity.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "7 min",
+        "timestamp": "2025-09-08T09:15:33",
+        "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/6g-network-testing-begins"
+    },
+    {
+        "title": "AI Analyzes Social Media for Mental Health Insights",
+        "excerpt": "Algorithm identifies patterns indicating mental health concerns from online activity.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "6 min",
+        "timestamp": "2025-05-22T16:25:40",
+        "image": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-analyzes-social-media-mental-health"
+    },
+    {
+        "title": "Desert Reforestation Using Drone Technology",
+        "excerpt": "Autonomous drones plant and monitor trees in arid regions on massive scale.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "7 min",
+        "timestamp": "2025-08-12T11:40:22",
+        "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/desert-reforestation-drone-technology"
+    },
+    {
+        "title": "Autonomous Public Transportation Launched",
+        "excerpt": "Self-driving buses and shuttles begin operation in multiple major cities.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "6 min",
+        "timestamp": "2025-11-30T13:55:33",
+        "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/autonomous-public-transportation-launched"
+    },
+    {
+        "title": "Samsung S25 Ultra Camera System Explained",
+        "excerpt": "Technical breakdown of Samsung's latest smartphone camera innovations.",
+        "category": "explanations",
+        "tag": "Explanations",
+        "readTime": "8 min",
+        "timestamp": "2026-02-02T15:10:40",
+        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/samsung-s25-ultra-camera-explained"
+    },
+    {
+        "title": "AI Generates Custom Video Games",
+        "excerpt": "Artificial intelligence creates unique gaming experiences based on player preferences.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "5 min",
+        "timestamp": "2025-04-02T10:20:22",
+        "image": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-generates-custom-video-games"
+    },
+    {
+        "title": "Terraforming Experiments Show Promising Results",
+        "excerpt": "Initial studies demonstrate feasibility of modifying planetary environments.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "9 min",
+        "timestamp": "2025-06-25T14:35:33",
+        "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/terraforming-experiments-promising-results"
+    },
+    {
+        "title": "Quantum Cryptography Secures Government Communications",
+        "excerpt": "Unbreakable encryption based on quantum principles protects sensitive data.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "7 min",
+        "timestamp": "2025-08-16T09:50:40",
+        "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/quantum-cryptography-government-communications"
+    },
+    {
+        "title": "AI Predicts Natural Disasters with Improved Accuracy",
+        "excerpt": "Advanced models forecast earthquakes, volcanic eruptions, and tsunamis earlier.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "8 min",
+        "timestamp": "2025-11-08T12:05:22",
+        "image": "https://images.unsplash.com/photo-1569336415962-a1bd8216b785?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-predicts-natural-disasters-accuracy"
+    },
+    {
+        "title": "Space-Based Solar Power Collection Demonstrated",
+        "excerpt": "Orbital systems collect solar energy and transmit it to Earth efficiently.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "7 min",
+        "timestamp": "2025-09-22T15:20:33",
+        "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/space-based-solar-power-demonstrated"
+    },
+    {
+        "title": "Optical Computing Reaches Practical Applications",
+        "excerpt": "Light-based processors achieve significant speed advantages over electronic chips.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "8 min",
+        "timestamp": "2025-12-12T10:35:40",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/optical-computing-practical-applications"
+    },
+    {
+        "title": "AI Creates Personalized Nutrition Plans",
+        "excerpt": "Algorithm designs custom diets based on individual genetics and health metrics.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "6 min",
+        "timestamp": "2025-04-25T13:50:22",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-creates-personalized-nutrition-plans"
+    },
+    {
+        "title": "Deep Sea Mining Technology Advances",
+        "excerpt": "Robotic systems enable sustainable mineral extraction from ocean floor.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "7 min",
+        "timestamp": "2025-07-15T11:05:33",
+        "image": "https://images.unsplash.com/photo-1562564055-71e1d37d9c46?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/deep-sea-mining-technology-advances"
+    },
+    {
+        "title": "Holographic Telepresence Becomes Commercial",
+        "excerpt": "Real-time 3D hologram communication available for business and personal use.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "5 min",
+        "timestamp": "2025-10-18T14:20:40",
+        "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/holographic-telepresence-commercial"
+    },
+    {
+        "title": "Windows 12: Complete Feature Analysis",
+        "excerpt": "In-depth review of Microsoft's latest operating system and AI integration.",
+        "category": "explanations",
+        "tag": "Explanations",
+        "readTime": "9 min",
+        "timestamp": "2026-01-15T16:35:22",
+        "image": "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/windows-12-complete-feature-analysis"
+    },
+    {
+        "title": "AI Automates Scientific Research Processes",
+        "excerpt": "Machine learning systems design experiments and analyze results autonomously.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "7 min",
+        "timestamp": "2025-05-05T09:50:33",
+        "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-automates-scientific-research"
+    },
+    {
+        "title": "Bionic Eyes Restore Vision to Blind Patients",
+        "excerpt": "Advanced implants convert visual information directly to brain signals.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "8 min",
+        "timestamp": "2025-08-02T12:15:40",
+        "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/bionic-eyes-restore-vision"
+    },
+    {
+        "title": "Autonomous Farming Increases Crop Yields",
+        "excerpt": "Self-driving agricultural equipment optimizes planting and harvesting processes.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "6 min",
+        "timestamp": "2025-11-18T15:30:22",
+        "image": "https://images.unsplash.com/photo-1592841200221-7ef6f5e7d8d9?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/autonomous-farming-increases-yields"
+    },
+    {
+        "title": "Next-Gen Battery Technology Doubles Capacity",
+        "excerpt": "Solid-state batteries with improved energy density ready for mass production.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "7 min",
+        "timestamp": "2025-09-12T10:45:33",
+        "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/next-gen-battery-technology-doubles-capacity"
+    },
+    {
+        "title": "AI Detects Counterfeit Products with High Precision",
+        "excerpt": "Computer vision systems identify fake goods across various industries.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "5 min",
+        "timestamp": "2025-06-08T13:20:40",
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-detects-counterfeit-products"
+    },
+    {
+        "title": "Climate Engineering Projects Show Early Success",
+        "excerpt": "Large-scale interventions demonstrate potential to mitigate global warming effects.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "8 min",
+        "timestamp": "2025-08-25T16:35:22",
+        "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/climate-engineering-projects-success"
+    },
+    {
+        "title": "Personal Air Vehicles Begin Test Flights",
+        "excerpt": "Individual flying devices undergo certification for urban transportation.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "6 min",
+        "timestamp": "2025-12-01T11:50:33",
+        "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/personal-air-vehicles-test-flights"
+    },
+    {
+        "title": "PlayStation 6: Spec Analysis and Expectations",
+        "excerpt": "Technical review of Sony's upcoming gaming console and anticipated features.",
+        "category": "explanations",
+        "tag": "Explanations",
+        "readTime": "10 min",
+        "timestamp": "2026-01-20T14:05:40",
+        "image": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/playstation-6-spec-analysis"
+    },
+    {
+        "title": "AI Optimizes Global Supply Chain Logistics",
+        "excerpt": "Intelligent systems reduce costs and improve efficiency in worldwide shipping networks.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "7 min",
+        "timestamp": "2025-05-15T09:20:22",
+        "image": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-optimizes-global-supply-chain"
+    },
+    {
+        "title": "Antimatter Production Efficiency Improves",
+        "excerpt": "Breakthrough techniques reduce cost of producing and containing antimatter particles.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "9 min",
+        "timestamp": "2025-07-22T12:35:33",
+        "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/antimatter-production-efficiency-improves"
+    },
+    {
+        "title": "Smart City Infrastructure Monitors Environmental Quality",
+        "excerpt": "Urban networks of sensors track air quality, noise, and pollution in real-time.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "6 min",
+        "timestamp": "2025-10-05T15:50:40",
+        "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/smart-city-monitors-environmental-quality"
+    },
+    {
+        "title": "Semiconductor Breakthrough Enables Faster Chips",
+        "excerpt": "New material allows transistor scaling beyond current physical limits.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "8 min",
+        "timestamp": "2025-09-02T11:05:22",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/semiconductor-breakthrough-faster-chips"
+    },
+    {
+        "title": "AI Generates Realistic Virtual Environments",
+        "excerpt": "Algorithms create detailed 3D worlds for gaming, simulation, and virtual reality.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "6 min",
+        "timestamp": "2025-06-18T14:20:33",
+        "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-generates-realistic-virtual-environments"
+    },
+    {
+        "title": "Ocean Thermal Energy Conversion Expands",
+        "excerpt": "Technology harnessing temperature differences in ocean water generates clean power.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "7 min",
+        "timestamp": "2025-08-30T16:35:40",
+        "image": "https://images.unsplash.com/photo-1562564055-71e1d37d9c46?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ocean-thermal-energy-conversion-expands"
+    },
+    {
+        "title": "Robot Companions for Elderly Care Deployed",
+        "excerpt": "Assistive robots provide companionship and support for aging populations.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "5 min",
+        "timestamp": "2025-11-22T10:50:22",
+        "image": "https://images.unsplash.com/photo-1485827404703-489689fd1ca8?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/robot-companions-elderly-care"
+    },
+    {
+        "title": "MacBook Pro M3: Performance Review",
+        "excerpt": "Comprehensive testing of Apple's latest professional laptop and chip architecture.",
+        "category": "explanations",
+        "tag": "Explanations",
+        "readTime": "9 min",
+        "timestamp": "2026-01-30T13:05:33",
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/macbook-pro-m3-performance-review"
+    },
+    {
+        "title": "AI Predicts Disease Outbreaks Before They Spread",
+        "excerpt": "Early warning system analyzes global data to forecast infectious disease patterns.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "7 min",
+        "timestamp": "2025-05-25T15:20:40",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-predicts-disease-outbreaks"
+    },
+    {
+        "title": "Nanotechnology Purifies Water at Molecular Level",
+        "excerpt": "Advanced nanomaterials remove contaminants from water with unprecedented efficiency.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "8 min",
+        "timestamp": "2025-07-10T11:35:22",
+        "image": "https://images.unsplash.com/photo-1569336415962-a1bd8216b785?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/nanotechnology-purifies-water"
+    },
+    {
+        "title": "Wireless Brain Stimulation Enhances Learning",
+        "excerpt": "Non-invasive technology improves cognitive functions through targeted neural stimulation.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "6 min",
+        "timestamp": "2025-10-12T14:50:33",
+        "image": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/wireless-brain-stimulation-enhances-learning"
+    },
+    {
+        "title": "Cloud Gaming Replaces Traditional Consoles",
+        "excerpt": "Streaming services deliver high-end gaming experiences without local hardware.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "7 min",
+        "timestamp": "2025-09-05T09:05:40",
+        "image": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/cloud-gaming-replaces-consoles"
+    },
+    {
+        "title": "AI Designs Efficient Building Architectures",
+        "excerpt": "Generative algorithms create optimized building designs for energy efficiency.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "6 min",
+        "timestamp": "2025-06-28T12:20:22",
+        "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-designs-efficient-architectures"
+    },
+    {
+        "title": "Geothermal Energy Extraction Technology Improves",
+        "excerpt": "Enhanced systems access deeper geothermal resources for clean power generation.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "7 min",
+        "timestamp": "2025-08-18T15:35:33",
+        "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/geothermal-energy-technology-improves"
+    },
+    {
+        "title": "Smart Roads Communicate with Autonomous Vehicles",
+        "excerpt": "Infrastructure provides real-time data to self-driving cars for safer navigation.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "5 min",
+        "timestamp": "2025-11-28T10:50:40",
+        "image": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/smart-roads-communicate-autonomous-vehicles"
+    },
+    {
+        "title": "iPhone 17 Pro: Camera Technology Explained",
+        "excerpt": "Technical analysis of Apple's latest smartphone photography innovations.",
+        "category": "explanations",
+        "tag": "Explanations",
+        "readTime": "8 min",
+        "timestamp": "2026-02-05T13:05:22",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/iphone-17-pro-camera-technology"
+    },
+    {
+        "title": "AI Creates Personalized Exercise Routines",
+        "excerpt": "Algorithm designs custom workout plans based on fitness goals and biometric data.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "5 min",
+        "timestamp": "2025-05-30T15:20:33",
+        "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-creates-personalized-exercise-routines"
+    },
+    {
+        "title": "Quantum Biology Research Reveals New Insights",
+        "excerpt": "Study of quantum effects in biological systems uncovers novel mechanisms.",
+        "category": "science",
+        "tag": "Science",
+        "readTime": "9 min",
+        "timestamp": "2025-07-20T11:35:40",
+        "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/quantum-biology-research-insights"
+    },
+    {
+        "title": "Personal Submersibles for Recreational Use",
+        "excerpt": "Compact underwater vehicles enable individual exploration of ocean depths.",
+        "category": "future",
+        "tag": "Future Tech",
+        "readTime": "6 min",
+        "timestamp": "2025-10-25T14:50:22",
+        "image": "https://images.unsplash.com/photo-1562564055-71e1d37d9c46?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/personal-submersibles-recreational-use"
+    },
+    {
+        "title": "Neuromorphic Processors for Edge AI Devices",
+        "excerpt": "Brain-inspired chips enable advanced AI capabilities on low-power devices.",
+        "category": "technology",
+        "tag": "Technology",
+        "readTime": "8 min",
+        "timestamp": "2025-09-10T09:05:33",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/neuromorphic-processors-edge-ai"
+    },
+    {
+        "title": "AI Optimizes Renewable Energy Storage Systems",
+        "excerpt": "Intelligent management improves efficiency of battery and hydrogen storage.",
+        "category": "ai",
+        "tag": "AI & Data",
+        "readTime": "7 min",
+        "timestamp": "2025-06-15T12:20:40",
+        "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=250&h=150&fit=crop&crop=center",
+        "url": "/articles/ai-optimizes-renewable-energy-storage"
+    }
+]
