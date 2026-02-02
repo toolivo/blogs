@@ -199,6 +199,943 @@
       "timestamp": "2026-02-01T09:45:00",
       "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=200&h=200&fit=crop&crop=center",
       "url": "/articles/flying-cars-faa-certification-urban-air-mobility"
+    },
+    {
+      "title": "Meta Introduces Llama 4 with Multimodal Capabilities",
+      "excerpt": "Latest open-source AI model understands and generates text, images, and audio simultaneously.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "6 min",
+      "timestamp": "2025-04-15T11:20:10",
+      "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/meta-llama-4-multimodal-capabilities"
+    },
+    {
+      "title": "Mars Rover Discovers Evidence of Ancient River Systems",
+      "excerpt": "Perseverance rover finds sedimentary patterns indicating flowing water existed for millions of years.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "7 min",
+      "timestamp": "2025-07-03T16:55:42",
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/mars-rover-evidence-ancient-river-systems"
+    },
+    {
+      "title": "Apple Vision Pro 2 Announced with Retina Display",
+      "excerpt": "Second-generation mixed reality headset features 8K resolution and advanced eye-tracking technology.",
+      "category": "technology",
+      "tag": "Technology",
+      "readTime": "8 min",
+      "timestamp": "2025-09-28T10:15:30",
+      "image": "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/apple-vision-pro-2-retina-display"
+    },
+    {
+      "title": "Global Data Breach Exposes 500 Million Passwords",
+      "excerpt": "Massive database leak affects users across 50+ countries, cybersecurity experts urge password changes.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "4 min",
+      "timestamp": "2025-06-11T03:45:18",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/global-data-breach-500-million-passwords"
+    },
+    {
+      "title": "AI-Powered Exoskeletons Enable Paralyzed Patients to Walk",
+      "excerpt": "Neural-controlled robotic suits restore mobility with 95% accuracy in movement prediction.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "7 min",
+      "timestamp": "2025-10-19T14:22:05",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-exoskeletons-paralyzed-patients-walk"
+    },
+    {
+      "title": "Nuclear Fusion Breakthrough: Net Energy Gain Achieved",
+      "excerpt": "Lawrence Livermore Laboratory confirms fusion reaction produced more energy than consumed.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "9 min",
+      "timestamp": "2025-11-30T18:33:27",
+      "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/nuclear-fusion-net-energy-gain-achieved"
+    },
+    {
+      "title": "Tesla Unveils Fully Autonomous Robotaxi Service",
+      "excerpt": "Driverless ride-hailing service launches in 10 major cities using Tesla's FSD version 12.",
+      "category": "technology",
+      "tag": "Technology",
+      "readTime": "6 min",
+      "timestamp": "2025-08-14T12:40:55",
+      "image": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/tesla-fully-autonomous-robotaxi-service"
+    },
+    {
+      "title": "DeepMind Solves Protein Folding for All Known Proteins",
+      "excerpt": "AlphaFold 3 accurately predicts structures for entire human proteome, accelerating drug discovery.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "8 min",
+      "timestamp": "2025-12-05T09:18:44",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/deepmind-solves-protein-folding-all-proteins"
+    },
+    {
+      "title": "Gene Therapy Reverses Aging in Mice, Human Trials Begin",
+      "excerpt": "Yamanaka factors successfully reset cellular age, extending lifespan by 30% in animal studies.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "7 min",
+      "timestamp": "2026-01-12T15:27:33",
+      "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/gene-therapy-reverses-aging-mice-human-trials"
+    },
+    {
+      "title": "Anthropic Releases Claude 4 with Constitutional AI",
+      "excerpt": "Advanced AI model demonstrates improved safety and alignment with human values.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "5 min",
+      "timestamp": "2025-05-22T13:45:21",
+      "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/anthropic-claude-4-constitutional-ai"
+    },
+    {
+      "title": "Blockchain-Based Voting System Hacked in National Election",
+      "excerpt": "Security researchers discover critical flaw allowing manipulation of digital voting records.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "5 min",
+      "timestamp": "2025-03-18T07:33:19",
+      "image": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/blockchain-voting-system-hacked-election"
+    },
+    {
+      "title": "Underwater Cities Planned for Climate Change Refugees",
+      "excerpt": "Floating ocean habitats designed to accommodate 10,000 residents each by 2030.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "8 min",
+      "timestamp": "2025-11-08T20:15:47",
+      "image": "https://images.unsplash.com/photo-1518834103328-93d45986dce1?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/underwater-cities-climate-change-refugees"
+    },
+    {
+      "title": "iPhone 17 Review: Revolutionary Camera System Tested",
+      "excerpt": "We examine Apple's new computational photography features and whether they justify the upgrade.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "9 min",
+      "timestamp": "2026-01-25T11:40:22",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/iphone-17-review-revolutionary-camera-system"
+    },
+    {
+      "title": "James Webb Telescope Discovers Earth-Like Exoplanet",
+      "excerpt": "TOI-700 e shows atmospheric composition similar to Earth, with potential for liquid water.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "6 min",
+      "timestamp": "2025-04-29T17:52:38",
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/webb-telescope-discovers-earth-like-exoplanet"
+    },
+    {
+      "title": "AI Generates Entire Video Games from Text Prompts",
+      "excerpt": "New generative AI creates playable games with code, assets, and mechanics from simple descriptions.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "7 min",
+      "timestamp": "2025-07-19T08:27:14",
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-generates-video-games-from-text-prompts"
+    },
+    {
+      "title": "Graphene Battery Charges Electric Cars in 5 Minutes",
+      "excerpt": "Breakthrough energy storage technology enables 300-mile range with ultra-fast charging.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "8 min",
+      "timestamp": "2025-10-11T14:18:29",
+      "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/graphene-battery-charges-cars-5-minutes"
+    },
+    {
+      "title": "SolarWinds-Style Attack Targets Government Networks",
+      "excerpt": "Sophisticated supply chain compromise discovered in open-source software repositories.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "4 min",
+      "timestamp": "2025-09-05T05:22:16",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/solarwinds-style-attack-government-networks"
+    },
+    {
+      "title": "Brain-Computer Interface Enables Dream Recording",
+      "excerpt": "Neuroscientists develop system to capture and visualize dreams using EEG and AI analysis.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "7 min",
+      "timestamp": "2025-12-14T21:30:45",
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/brain-computer-interface-dream-recording"
+    },
+    {
+      "title": "Windows 13: Complete Walkthrough of New Features",
+      "excerpt": "Detailed Explanation covering the redesigned interface, AI integration, and productivity tools.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "10 min",
+      "timestamp": "2026-02-02T13:15:00",
+      "image": "https://images.unsplash.com/photo-1542744094-fb6bdee9f8f5?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/windows-13-complete-walkthrough-new-features"
+    },
+    {
+      "title": "AI Discovers New Antibiotic to Combat Drug-Resistant Bacteria",
+      "excerpt": "Machine learning identifies novel compound effective against MRSA and other superbugs.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "6 min",
+      "timestamp": "2025-03-25T10:44:37",
+      "image": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-discovers-new-antibiotic-drug-resistant-bacteria"
+    },
+    {
+      "title": "Venus Mission Discovers Active Volcanism",
+      "excerpt": "ESA's EnVision orbiter detects fresh lava flows, suggesting ongoing geological activity.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "7 min",
+      "timestamp": "2025-06-28T19:12:53",
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/venus-mission-discovers-active-volcanism"
+    },
+    {
+      "title": "Samsung Announces 3nm Chip Production for Galaxy S26",
+      "excerpt": "Next-generation processors promise 45% better performance and 50% power efficiency improvement.",
+      "category": "technology",
+      "tag": "Technology",
+      "readTime": "5 min",
+      "timestamp": "2025-08-03T16:28:41",
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/samsung-3nm-chip-production-galaxy-s26"
+    },
+    {
+      "title": "Ransomware Gang Demands $100 Million From Major Bank",
+      "excerpt": "Financial institution's operations halted for three days following sophisticated cyber attack.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "4 min",
+      "timestamp": "2025-01-18T08:17:24",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ransomware-demands-100-million-from-bank"
+    },
+    {
+      "title": "Artificial Photosynthesis Produces Fuel from Sunlight",
+      "excerpt": "New catalyst system converts CO2 and water into hydrocarbon fuels with 15% efficiency.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "8 min",
+      "timestamp": "2025-11-22T12:33:19",
+      "image": "https://images.unsplash.com/photo-1497440001375-fd82e6d5f7f7?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/artificial-photosynthesis-fuel-from-sunlight"
+    },
+    {
+      "title": "Nuclear Reactor Achieves 5 Years Without Refueling",
+      "excerpt": "Advanced modular reactor design sets new record for continuous operation and safety.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "7 min",
+      "timestamp": "2025-09-17T14:45:02",
+      "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/nuclear-reactor-5-years-without-refueling"
+    },
+    {
+      "title": "Google Pixel 9 Pro: Camera Comparison with iPhone 16",
+      "excerpt": "Side-by-side testing reveals strengths and weaknesses of both flagship smartphone cameras.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "9 min",
+      "timestamp": "2025-10-08T09:55:47",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/google-pixel-9-pro-camera-comparison-iphone-16"
+    },
+    {
+      "title": "AI Legal Assistant Wins Court Case Against Human Lawyers",
+      "excerpt": "Artificial intelligence successfully represents client in contract dispute, achieving favorable settlement.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "6 min",
+      "timestamp": "2025-12-02T17:20:38",
+      "image": "https://images.unsplash.com/photo-1589391886085-8b6b0ac72a1a?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-legal-assistant-wins-court-case"
+    },
+    {
+      "title": "Black Hole Merger Observed in Real Time",
+      "excerpt": "LIGO detectors capture gravitational waves from colliding intermediate-mass black holes.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "8 min",
+      "timestamp": "2025-05-07T23:14:26",
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/black-hole-merger-observed-real-time"
+    },
+    {
+      "title": "AMD Unveils Ryzen 9000 with AI Accelerator",
+      "excerpt": "New CPU series includes dedicated neural processing unit for on-device AI tasks.",
+      "category": "technology",
+      "tag": "Technology",
+      "readTime": "5 min",
+      "timestamp": "2025-07-12T11:38:54",
+      "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/amd-ryzen-9000-ai-accelerator"
+    },
+    {
+      "title": "IoT Botnet Takes Down Major Cloud Provider",
+      "excerpt": "Millions of compromised smart devices launch largest DDoS attack in history.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "4 min",
+      "timestamp": "2025-02-14T06:45:33",
+      "image": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/iot-botnet-takes-down-cloud-provider"
+    },
+    {
+      "title": "Quantum Internet Demonstrates Instantaneous Communication",
+      "excerpt": "Entangled particles enable secure data transfer over 1000km distance.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "7 min",
+      "timestamp": "2025-10-29T15:52:41",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/quantum-internet-instantaneous-communication"
+    },
+    {
+      "title": "MacBook Pro M4 Review: Performance Benchmarks",
+      "excerpt": "Testing Apple's latest silicon reveals impressive gains in both CPU and GPU performance.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "8 min",
+      "timestamp": "2025-11-05T14:27:18",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/macbook-pro-m4-review-performance-benchmarks"
+    },
+    {
+      "title": "AI Predicts Stock Market Movements with 87% Accuracy",
+      "excerpt": "Deep learning model analyzes news sentiment and market data to forecast trends.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "6 min",
+      "timestamp": "2025-04-03T13:19:25",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-predicts-stock-market-87-accuracy"
+    },
+    {
+      "title": "Ocean Drilling Discovers New Life Forms 10km Deep",
+      "excerpt": "Microbial communities thrive in extreme conditions, expanding known limits of life.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "7 min",
+      "timestamp": "2025-08-25T18:44:12",
+      "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ocean-drilling-discovers-new-life-forms"
+    },
+    {
+      "title": "NVIDIA Announces Blackwell Superchip for AI Training",
+      "excerpt": "Next-generation GPU delivers 5x performance improvement for large language models.",
+      "category": "technology",
+      "tag": "Technology",
+      "readTime": "6 min",
+      "timestamp": "2025-06-19T10:33:47",
+      "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/nvidia-blackwell-superchip-ai-training"
+    },
+    {
+      "title": "Critical Infrastructure Attack Disables Power Grid",
+      "excerpt": "State-sponsored hackers compromise SCADA systems, causing widespread blackouts.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "5 min",
+      "timestamp": "2025-03-07T04:18:59",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/critical-infrastructure-attack-power-grid"
+    },
+    {
+      "title": "Mind-Uploading Experiment Preserves Human Consciousness",
+      "excerpt": "Scientists successfully create digital copy of brain activity patterns.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "8 min",
+      "timestamp": "2025-12-24T21:15:33",
+      "image": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/mind-uploading-experiment-preserves-consciousness"
+    },
+    {
+      "title": "PlayStation 6 vs Xbox Series Z: Spec Comparison",
+      "excerpt": "Detailed analysis of next-generation console hardware and exclusive game titles.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "10 min",
+      "timestamp": "2026-01-30T16:42:08",
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/playstation-6-vs-xbox-series-z-spec-comparison"
+    },
+    {
+      "title": "AI Composes Symphony Performed by London Philharmonic",
+      "excerpt": "Machine learning algorithm creates original musical piece praised by classical critics.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "6 min",
+      "timestamp": "2025-05-29T19:27:51",
+      "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-composes-symphony-london-philharmonic"
+    },
+    {
+      "title": "Antarctic Ice Core Reveals 2 Million Years of Climate Data",
+      "excerpt": "Longest continuous climate record shows unprecedented rate of recent warming.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "7 min",
+      "timestamp": "2025-09-09T12:38:44",
+      "image": "https://images.unsplash.com/photo-1518834103328-93d45986dce1?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/antarctic-ice-core-2-million-years-climate-data"
+    },
+    {
+      "title": "Intel Launches Lunar Lake with On-Package Memory",
+      "excerpt": "New mobile processor architecture significantly improves power efficiency.",
+      "category": "technology",
+      "tag": "Technology",
+      "readTime": "5 min",
+      "timestamp": "2025-07-05T08:52:17",
+      "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/intel-lunar-lake-on-package-memory"
+    },
+    {
+      "title": "Social Media Platform Loses 50 Million User Records",
+      "excerpt": "Database containing private messages and photos exposed online for weeks.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "4 min",
+      "timestamp": "2025-01-25T13:46:22",
+      "image": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/social-media-platform-loses-50-million-records"
+    },
+    {
+      "title": "Vertical Farming Produces 100x More Food per Acre",
+      "excerpt": "AI-controlled indoor farms achieve record yields with minimal water usage.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "6 min",
+      "timestamp": "2025-11-15T11:29:35",
+      "image": "https://images.unsplash.com/photo-1497440001375-fd82e6d5f7f7?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/vertical-farming-100x-more-food-per-acre"
+    },
+    {
+      "title": "Dyson Sphere Evidence Found Around Distant Star",
+      "excerpt": "Astronomers detect unusual infrared signature suggesting megastructure construction.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "8 min",
+      "timestamp": "2025-10-17T20:13:48",
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/dyson-sphere-evidence-distant-star"
+    },
+    {
+      "title": "AI Writes Bestselling Novel in 24 Hours",
+      "excerpt": "Machine-generated fiction tops Amazon charts, sparking debate about creative authorship.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "5 min",
+      "timestamp": "2025-06-23T14:55:29",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-writes-bestselling-novel-24-hours"
+    },
+    {
+      "title": "Foldable iPad Pro: First Impressions and Hands-On",
+      "excerpt": "Testing Apple's revolutionary flexible display technology and new form factor.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "8 min",
+      "timestamp": "2025-12-11T10:18:42",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/foldable-ipad-pro-first-impressions-hands-on"
+    },
+    {
+      "title": "Quantum Radar Detects Stealth Aircraft at 500km",
+      "excerpt": "New detection technology uses quantum entanglement to overcome radar-absorbing materials.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "7 min",
+      "timestamp": "2025-04-11T17:34:56",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/quantum-radar-detects-stealth-aircraft"
+    },
+    {
+      "title": "Microsoft Surface Duo 3: Productivity Powerhouse Review",
+      "excerpt": "Examining whether the dual-screen device delivers on its promise as a laptop replacement.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "9 min",
+      "timestamp": "2025-08-30T13:27:15",
+      "image": "https://images.unsplash.com/photo-1542744094-fb6bdee9f8f5?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/microsoft-surface-duo-3-productivity-review"
+    },
+    {
+      "title": "AI Diagnoses Rare Diseases with 99% Accuracy",
+      "excerpt": "Deep learning system analyzes genetic data and symptoms to identify obscure conditions.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "6 min",
+      "timestamp": "2025-03-30T09:41:33",
+      "image": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-diagnoses-rare-diseases-99-accuracy"
+    },
+    {
+      "title": "Solar Sail Propels Spacecraft to Record Speed",
+      "excerpt": "Light-powered propulsion achieves 0.1% light speed in deep space demonstration.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "7 min",
+      "timestamp": "2025-07-15T16:22:48",
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/solar-sail-propels-spacecraft-record-speed"
+    },
+    {
+      "title": "Qualcomm Snapdragon 8 Gen 4 Benchmarks Leaked",
+      "excerpt": "Performance tests show significant GPU improvements over previous generation.",
+      "category": "technology",
+      "tag": "Technology",
+      "readTime": "5 min",
+      "timestamp": "2025-05-18T12:39:24",
+      "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/qualcomm-snapdragon-8-gen-4-benchmarks"
+    },
+    {
+      "title": "Cryptocurrency Exchange Hack Results in $400M Loss",
+      "excerpt": "Attackers exploit smart contract vulnerability to drain funds from DeFi platform.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "4 min",
+      "timestamp": "2025-02-08T03:27:41",
+      "image": "https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/cryptocurrency-exchange-hack-400m-loss"
+    },
+    {
+      "title": "Atmospheric Water Generators Solve Drought Crisis",
+      "excerpt": "New technology extracts drinking water from air with 90% energy efficiency.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "6 min",
+      "timestamp": "2025-11-28T15:44:37",
+      "image": "https://images.unsplash.com/photo-1497440001375-fd82e6d5f7f7?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/atmospheric-water-generators-solve-drought"
+    },
+    {
+      "title": "Moon Base Construction Begins with 3D Printing",
+      "excerpt": "ESA and NASA collaborate on lunar habitat built from regolith using robotic printers.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "8 min",
+      "timestamp": "2025-10-05T19:31:22",
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/moon-base-construction-3d-printing"
+    },
+    {
+      "title": "AI Discovers Mathematical Proof for Riemann Hypothesis",
+      "excerpt": "Machine learning system solves 160-year-old mathematics problem in weeks.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "7 min",
+      "timestamp": "2025-12-07T11:52:19",
+      "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-discovers-proof-riemann-hypothesis"
+    },
+    {
+      "title": "Meta Quest 4 Review: VR Gaming Revolutionized",
+      "excerpt": "Testing the next-generation virtual reality headset with eye-tracking and haptic feedback.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "9 min",
+      "timestamp": "2026-01-14T16:38:05",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/meta-quest-4-review-vr-gaming-revolutionized"
+    },
+    {
+      "title": "Time Crystal Created at Room Temperature",
+      "excerpt": "Breakthrough in quantum physics creates matter that oscillates without energy input.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "8 min",
+      "timestamp": "2025-09-25T14:17:43",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/time-crystal-room-temperature"
+    },
+    {
+      "title": "AI Personal Assistant Manages Entire Work Schedule",
+      "excerpt": "Autonomous system schedules meetings, prioritizes tasks, and writes emails with human-like understanding.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "6 min",
+      "timestamp": "2025-06-07T08:49:26",
+      "image": "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-personal-assistant-manages-work-schedule"
+    },
+    {
+      "title": "6G Network Demonstrates 1 Terabit per Second Speeds",
+      "excerpt": "Next-generation wireless technology enables instant downloads of large datasets.",
+      "category": "technology",
+      "tag": "Technology",
+      "readTime": "5 min",
+      "timestamp": "2025-08-08T17:23:54",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/6g-network-1-terabit-per-second"
+    },
+    {
+      "title": "AI-Powered Cyber Attack Evades All Security Systems",
+      "excerpt": "Adaptive malware uses machine learning to bypass traditional defenses.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "5 min",
+      "timestamp": "2025-01-14T07:35:18",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-powered-cyber-attack-evades-security"
+    },
+    {
+      "title": "Teleportation of Quantum Information Achieved",
+      "excerpt": "Scientists successfully transmit quantum state over 100km distance.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "7 min",
+      "timestamp": "2025-11-03T21:46:32",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/teleportation-quantum-information-achieved"
+    },
+    {
+      "title": "Sony A7V Review: Professional Mirrorless Camera Tested",
+      "excerpt": "Evaluating the flagship camera's new sensor technology and autofocus capabilities.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "8 min",
+      "timestamp": "2025-12-16T12:29:47",
+      "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/sony-a7v-review-professional-mirrorless-camera"
+    },
+    {
+      "title": "AI Reconstructs Ancient Languages from Fragmentary Texts",
+      "excerpt": "Machine learning deciphers lost languages and reconstructs proto-language families.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "6 min",
+      "timestamp": "2025-04-07T15:18:39",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-reconstructs-ancient-languages"
+    },
+    {
+      "title": "Deep Sea Mining Reveals Rare Earth Element Deposits",
+      "excerpt": "Pacific ocean floor contains minerals critical for electronics and renewable energy.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "7 min",
+      "timestamp": "2025-07-22T18:44:51",
+      "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/deep-sea-mining-rare-earth-elements"
+    },
+    {
+      "title": "AMD Instinct MI400 Breaks AI Training Records",
+      "excerpt": "New accelerator chip trains GPT-5 sized models in half the time of competitors.",
+      "category": "technology",
+      "tag": "Technology",
+      "readTime": "6 min",
+      "timestamp": "2025-09-02T10:37:24",
+      "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/amd-instinct-mi400-ai-training-records"
+    },
+    {
+      "title": "Supply Chain Attack Infects Software Update Servers",
+      "excerpt": "Malicious code distributed through legitimate software updates affects millions of devices.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "4 min",
+      "timestamp": "2025-03-03T05:52:13",
+      "image": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/supply-chain-attack-software-update-servers"
+    },
+    {
+      "title": "Anti-Aging Treatment Extends Lifespan by 50% in Mammals",
+      "excerpt": "Senolytic drugs clear aged cells, restoring tissue function in elderly animals.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "7 min",
+      "timestamp": "2025-10-25T13:41:28",
+      "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/anti-aging-treatment-extends-lifespan-50-percent"
+    },
+    {
+      "title": "JWST Observes First Generation of Stars",
+      "excerpt": "Telescope detects Population III stars formed from primordial hydrogen and helium.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "8 min",
+      "timestamp": "2025-08-18T22:15:42",
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/jwst-observes-first-generation-stars"
+    },
+    {
+      "title": "AI Generates Photorealistic Images from Brain Scans",
+      "excerpt": "System reconstructs visual experiences from fMRI data with 85% accuracy.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "6 min",
+      "timestamp": "2025-05-11T16:33:57",
+      "image": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-generates-images-from-brain-scans"
+    },
+    {
+      "title": "Framework Laptop 16: Modular Computing Explained",
+      "excerpt": "Detailed review of the repairable, upgradable laptop designed to reduce e-waste.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "9 min",
+      "timestamp": "2026-01-21T14:52:36",
+      "image": "https://images.unsplash.com/photo-1542744094-fb6bdee9f8f5?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/framework-laptop-16-modular-computing"
+    },
+    {
+      "title": "Plasma Engines Reduce Mars Travel Time to 45 Days",
+      "excerpt": "New propulsion technology enables faster interplanetary missions with less fuel.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "7 min",
+      "timestamp": "2025-11-19T10:28:44",
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/plasma-engines-mars-travel-45-days"
+    },
+    {
+      "title": "AI Detects Art Forgeries with 99.9% Accuracy",
+      "excerpt": "Neural network analyzes brush strokes and pigment composition to authenticate paintings.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "5 min",
+      "timestamp": "2025-07-08T12:45:33",
+      "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-detects-art-forgeries-99-9-accuracy"
+    },
+    {
+      "title": "Climate Engineering Project Cools Arctic by 2°C",
+      "excerpt": "Stratospheric aerosol injection successfully reduces polar temperatures in controlled test.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "8 min",
+      "timestamp": "2025-10-01T19:37:25",
+      "image": "https://images.unsplash.com/photo-1518834103328-93d45986dce1?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/climate-engineering-cools-arctic-2-degrees"
+    },
+    {
+      "title": "MediaTek Dimensity 10000 Outperforms Apple M3",
+      "excerpt": "Mobile chipset achieves desktop-level performance in benchmark tests.",
+      "category": "technology",
+      "tag": "Technology",
+      "readTime": "5 min",
+      "timestamp": "2025-06-26T11:19:42",
+      "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/mediatek-dimensity-10000-outperforms-apple-m3"
+    },
+    {
+      "title": "AI-Driven Social Engineering Attacks Increase 500%",
+      "excerpt": "Phishing campaigns use personalized content generated by language models.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "4 min",
+      "timestamp": "2025-02-20T09:44:17",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-social-engineering-attacks-increase-500-percent"
+    },
+    {
+      "title": "Synthetic Biology Creates Organisms with 6 DNA Bases",
+      "excerpt": "Expanded genetic alphabet enables creation of proteins with novel functions.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "7 min",
+      "timestamp": "2025-12-09T15:26:38",
+      "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/synthetic-biology-organisms-6-dna-bases"
+    },
+    {
+      "title": "Gaming Monitor Comparison: OLED vs Mini-LED vs MicroLED",
+      "excerpt": "Comprehensive testing of display technologies for competitive gaming and content creation.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "10 min",
+      "timestamp": "2026-01-28T17:33:51",
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/gaming-monitor-comparison-oled-miniled-microled"
+    },
+    {
+      "title": "AI Predicts Earthquakes with 90% Accuracy 72 Hours Early",
+      "excerpt": "Machine learning analyzes seismic data patterns to forecast major tectonic events.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "6 min",
+      "timestamp": "2025-09-15T07:52:29",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-predicts-earthquakes-90-accuracy-72-hours"
+    },
+    {
+      "title": "Dark Matter Particle Detected in Underground Lab",
+      "excerpt": "WIMP signal confirmed after 20 years of searching in deep underground experiments.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "8 min",
+      "timestamp": "2025-11-05T23:41:16",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/dark-matter-particle-detected-underground-lab"
+    },
+    {
+      "title": "Wi-Fi 7 Routers Deliver Multi-Gigabit Speeds Wirelessly",
+      "excerpt": "Next-generation wireless standard enables 8K streaming and VR applications.",
+      "category": "technology",
+      "tag": "Technology",
+      "readTime": "5 min",
+      "timestamp": "2025-08-01T14:28:33",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/wi-fi-7-routers-multi-gigabit-speeds"
+    },
+    {
+      "title": "Quantum Computers Break RSA-2048 Encryption",
+      "excerpt": "Shor's algorithm successfully implemented on 1000-qubit quantum processor.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "5 min",
+      "timestamp": "2025-04-19T06:37:22",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/quantum-computers-break-rsa-2048-encryption"
+    },
+    {
+      "title": "Memory Implants Restore Lost Memories in Alzheimer's Patients",
+      "excerpt": "Brain prosthesis successfully recalls specific memories using recorded neural patterns.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "7 min",
+      "timestamp": "2025-10-15T12:19:45",
+      "image": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/memory-implants-restore-lost-memories-alzheimers"
+    },
+    {
+      "title": "AI Complete Summary of The Lord of the Rings",
+      "excerpt": "Machine-generated analysis of Tolkien's masterpiece with character arcs and thematic exploration.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "4 min",
+      "timestamp": "2025-05-05T18:44:57",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-complete-summary-lord-of-the-rings"
+    },
+    {
+      "title": "Exoplanet Atmosphere Shows Signs of Industrial Pollution",
+      "excerpt": "JWST detects chlorofluorocarbons in distant world's atmosphere, potential technosignature.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "7 min",
+      "timestamp": "2025-12-22T20:33:41",
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/exoplanet-atmosphere-industrial-pollution-signs"
+    }
+  ]
+}      "tag": "Cyber World",
+      "readTime": "4 min",
+      "timestamp": "2025-11-11T04:18:09",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ransomware-attack-cripples-hospital-networks"
+    },
+    {
+      "title": "First Commercial Space Hotel Announces 2026 Opening",
+      "excerpt": "Orbital Assembly Corporation reveals plans for luxury space hotel with artificial gravity and Earth views.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "8 min",
+      "timestamp": "2025-12-19T12:00:00",
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/first-commercial-space-hotel-2026-opening"
+    },
+    {
+      "title": "Samsung Galaxy Z Fold 6: The Ultimate Productivity Device",
+      "excerpt": "After two weeks of testing, we determine if the latest foldable justifies its $1,800 price tag.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "9 min",
+      "timestamp": "2026-01-07T10:25:36",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/samsung-galaxy-z-fold-6-review"
+    },
+    {
+      "title": "Webb Telescope Finds Water on Rocky Exoplanet",
+      "excerpt": "K2-18b shows signs of liquid water oceans and carbon-bearing molecules, suggesting habitable conditions.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "5 min",
+      "timestamp": "2026-01-18T17:42:51",
+      "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/webb-telescope-finds-water-rocky-exoplanet"
+    },
+    {
+      "title": "AI Detects Early-Stage Cancer with 98% Accuracy",
+      "excerpt": "New deep learning model analyzes medical scans to detect cancer months before traditional methods.",
+      "category": "ai",
+      "tag": "AI & Data",
+      "readTime": "5 min",
+      "timestamp": "2025-01-30T06:14:22",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/ai-detects-early-stage-cancer-98-accuracy"
+    },
+    {
+      "title": "Room-Temperature Superconductivity Confirmed",
+      "excerpt": "MIT team replicates results using new carbonaceous sulfur hydride material, revolutionizing energy transmission.",
+      "category": "science",
+      "tag": "Science",
+      "readTime": "8 min",
+      "timestamp": "2025-02-02T13:29:55",
+      "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/room-temperature-superconductivity-confirmed"
+    },
+    {
+      "title": "New Zero-Day Vulnerability in Chrome Affects 2 Billion Users",
+      "excerpt": "Critical security flaw allows remote code execution, patch released urgently by Google security team.",
+      "category": "cyber",
+      "tag": "Cyber World",
+      "readTime": "3 min",
+      "timestamp": "2026-01-25T02:37:49",
+      "image": "https://images.unsplash.com/photo-1526378553286-757e3ac7b688?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/zero-day-vulnerability-chrome-2-billion-users"
+    },
+    {
+      "title": "Neuralink Implant Allows Paralysed Patient to Control Computer",
+      "excerpt": "Breakthrough brain-computer interface enables thought-controlled typing at 90 words per minute.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "7 min",
+      "timestamp": "2025-08-22T11:09:33",
+      "image": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/neuralink-implant-paralysed-patient-control-computer"
+    },
+    {
+      "title": "Microsoft Copilot Pro: Is It Worth $20/Month?",
+      "excerpt": "Comprehensive Explanation of Microsoft's AI assistant across Word, Excel, PowerPoint, and Outlook.",
+      "category": "explanations",
+      "tag": "Explanations",
+      "readTime": "6 min",
+      "timestamp": "2025-05-14T14:28:57",
+      "image": "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/microsoft-copilot-pro-review-worth-20-dollars-month"
+    },
+    {
+      "title": "Flying Cars Receive FAA Certification for Urban Air Mobility",
+      "excerpt": "First electric vertical takeoff and landing vehicles approved for commercial operations in major cities.",
+      "category": "future",
+      "tag": "Future Tech",
+      "readTime": "5 min",
+      "timestamp": "2026-02-01T09:45:00",
+      "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=200&h=200&fit=crop&crop=center",
+      "url": "/articles/flying-cars-faa-certification-urban-air-mobility"
     }
   ]
 }
